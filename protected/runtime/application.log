@@ -1,0 +1,1684 @@
+2013/10/28 15:58:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php:259
+Stack trace:
+#0 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(54): DocumentsController->loadModel('2606')
+#1 [internal function]: DocumentsController->actionView('2606')
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(DocumentsController), Array)
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(DocumentsController), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): CController->run('view')
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController('documents/view')
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/agdiary/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/agdiary/index.php/documents/2606
+HTTP_REFERER=http://172.21.51.47/agdiary/index.php/documents/2605
+---
+2013/10/29 13:46:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php:259
+Stack trace:
+#0 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(54): DocumentsController->loadModel('2606')
+#1 [internal function]: DocumentsController->actionView('2606')
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(DocumentsController), Array)
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(DocumentsController), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): CController->run('view')
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController('documents/view')
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/agdiary/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/agdiary/index.php/documents/2606
+HTTP_REFERER=http://172.21.51.47/agdiary/index.php/documents/2605
+---
+2013/10/29 18:12:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php:259
+Stack trace:
+#0 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(54): DocumentsController->loadModel('2620')
+#1 [internal function]: DocumentsController->actionView('2620')
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(DocumentsController), Array)
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(DocumentsController), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): CController->run('view')
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController('documents/view')
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/agdiary/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/agdiary/index.php/documents/2620
+HTTP_REFERER=http://172.21.51.47/agdiary/index.php/documents/2619
+---
+2013/10/29 18:12:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php:259
+Stack trace:
+#0 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(54): DocumentsController->loadModel('2620')
+#1 [internal function]: DocumentsController->actionView('2620')
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(DocumentsController), Array)
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(DocumentsController), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): CController->run('view')
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController('documents/view')
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/agdiary/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/agdiary/index.php/documents/2620
+HTTP_REFERER=http://172.21.51.47/agdiary/index.php/documents/2619
+---
+2013/10/31 16:07:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php:259
+Stack trace:
+#0 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(54): DocumentsController->loadModel('2631')
+#1 [internal function]: DocumentsController->actionView('2631')
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(DocumentsController), Array)
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(DocumentsController), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): CController->run('view')
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController('documents/view')
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/agdiary/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/agdiary/index.php/documents/2631
+HTTP_REFERER=http://172.21.51.47/agdiary/index.php/documents/2630
+---
+2013/10/31 16:09:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php:259
+Stack trace:
+#0 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(54): DocumentsController->loadModel('2631')
+#1 [internal function]: DocumentsController->actionView('2631')
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(DocumentsController), Array)
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(DocumentsController), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): CController->run('view')
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController('documents/view')
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/agdiary/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/agdiary/index.php/documents/2631
+HTTP_REFERER=http://172.21.51.47/agdiary/index.php/documents/2630
+---
+2013/11/01 13:05:59 [error] [php] Undefined offset: 2 (/opt/lampp/htdocs/agdiary/protected/models/Documents.php:122)
+Stack trace:
+#0 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CBaseController.php(96): DocumentsController->renderInternal()
+#1 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(870): DocumentsController->renderFile()
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(783): DocumentsController->renderPartial()
+#3 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(247): DocumentsController->render()
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(50): DocumentsController->actionAdmin()
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams()
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): DocumentsController->runAction()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): DocumentsController->filterAccessControl()
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): DocumentsController->runActionWithFilters()
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): DocumentsController->run()
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#15 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/agdiary/index.php(13): CWebApplication->run()
+REQUEST_URI=/agdiary/index.php/documents?Documents%5Bid%5D=&Documents%5Bdiary_number%5D=&Documents%5Bdate_received%5D=&Documents%5Breference_number%5D=6667-70&Documents%5Bdate_of_document%5D=19.03.2013&Documents%5Breceived_from%5D=&Documents%5Bdescription%5D=&ajax=documents-grid
+in /opt/lampp/htdocs/agdiary/protected/models/Documents.php (122)
+in /opt/lampp/htdocs/agdiary/protected/views/documents/admin.php (41)
+in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php (247)
+2013/11/01 13:06:06 [error] [php] Undefined offset: 2 (/opt/lampp/htdocs/agdiary/protected/models/Documents.php:122)
+Stack trace:
+#0 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CBaseController.php(96): DocumentsController->renderInternal()
+#1 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(870): DocumentsController->renderFile()
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(783): DocumentsController->renderPartial()
+#3 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(247): DocumentsController->render()
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(50): DocumentsController->actionAdmin()
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams()
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): DocumentsController->runAction()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): DocumentsController->filterAccessControl()
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): DocumentsController->runActionWithFilters()
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): DocumentsController->run()
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#15 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/agdiary/index.php(13): CWebApplication->run()
+REQUEST_URI=/agdiary/index.php/documents?Documents%5Bid%5D=&Documents%5Bdiary_number%5D=&Documents%5Bdate_received%5D=&Documents%5Breference_number%5D=6667-70&Documents%5Bdate_of_document%5D=19.03.2013&Documents%5Breceived_from%5D=&Documents%5Bdescription%5D=&ajax=documents-grid
+in /opt/lampp/htdocs/agdiary/protected/models/Documents.php (122)
+in /opt/lampp/htdocs/agdiary/protected/views/documents/admin.php (41)
+in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php (247)
+2013/11/01 13:08:15 [error] [php] Undefined offset: 2 (/opt/lampp/htdocs/agdiary/protected/models/Documents.php:115)
+Stack trace:
+#0 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CBaseController.php(96): DocumentsController->renderInternal()
+#1 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(870): DocumentsController->renderFile()
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(783): DocumentsController->renderPartial()
+#3 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(247): DocumentsController->render()
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(50): DocumentsController->actionAdmin()
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams()
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): DocumentsController->runAction()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): DocumentsController->filterAccessControl()
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): DocumentsController->runActionWithFilters()
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): DocumentsController->run()
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#15 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/agdiary/index.php(13): CWebApplication->run()
+REQUEST_URI=/agdiary/index.php/documents?Documents%5Bid%5D=&Documents%5Bdiary_number%5D=&Documents%5Bdate_received%5D=19.3.2013&Documents%5Breference_number%5D=&Documents%5Bdate_of_document%5D=&Documents%5Breceived_from%5D=&Documents%5Bdescription%5D=&ajax=documents-grid
+in /opt/lampp/htdocs/agdiary/protected/models/Documents.php (115)
+in /opt/lampp/htdocs/agdiary/protected/views/documents/admin.php (41)
+in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php (247)
+2013/11/04 16:14:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php:259
+Stack trace:
+#0 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(54): DocumentsController->loadModel('2638')
+#1 [internal function]: DocumentsController->actionView('2638')
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(DocumentsController), Array)
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(DocumentsController), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): CController->run('view')
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController('documents/view')
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/agdiary/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/agdiary/index.php/documents/2638
+HTTP_REFERER=http://172.21.51.47/agdiary/index.php/documents/2637
+---
+2013/11/04 16:22:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php:259
+Stack trace:
+#0 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(54): DocumentsController->loadModel('2638')
+#1 [internal function]: DocumentsController->actionView('2638')
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(DocumentsController), Array)
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(DocumentsController), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): CController->run('view')
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController('documents/view')
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/agdiary/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/agdiary/index.php/documents/2638
+HTTP_REFERER=http://172.21.51.47/agdiary/index.php/documents/2637
+---
+2013/11/05 18:45:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php:259
+Stack trace:
+#0 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(54): DocumentsController->loadModel('2643')
+#1 [internal function]: DocumentsController->actionView('2643')
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(DocumentsController), Array)
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(DocumentsController), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): CController->run('view')
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController('documents/view')
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/agdiary/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/agdiary/index.php/documents/2643
+HTTP_REFERER=http://172.21.51.47/agdiary/index.php/documents/2642
+---
+2013/11/07 16:34:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php:259
+Stack trace:
+#0 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(54): DocumentsController->loadModel('2644')
+#1 [internal function]: DocumentsController->actionView('2644')
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(DocumentsController), Array)
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(DocumentsController), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): CController->run('view')
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController('documents/view')
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/agdiary/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/agdiary/index.php/documents/2644
+HTTP_REFERER=http://172.21.51.47/agdiary/index.php/documents/2643
+---
+2013/11/12 17:44:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php:259
+Stack trace:
+#0 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(54): DocumentsController->loadModel('2673')
+#1 [internal function]: DocumentsController->actionView('2673')
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(DocumentsController), Array)
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(DocumentsController), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): CController->run('view')
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController('documents/view')
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/agdiary/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/agdiary/index.php/documents/2673
+HTTP_REFERER=http://172.21.51.47/agdiary/index.php/documents/2672
+---
+2013/11/20 11:25:18 [error] [php] Undefined offset: 2 (/opt/lampp/htdocs/agdiary/protected/models/Disposal.php:127)
+Stack trace:
+#0 /opt/lampp/htdocs/agdiary/protected/controllers/DisposalController.php(98): Disposal->save()
+#1 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(50): DisposalController->actionCreate()
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): DisposalController->runAction()
+#4 /opt/lampp/htdocs/agdiary/protected/controllers/DisposalController.php(219): CFilterChain->run()
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): DisposalController->filterDocumentContext()
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): DisposalController->filterAccessControl()
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): DisposalController->runActionWithFilters()
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): DisposalController->run()
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#15 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/agdiary/index.php(13): CWebApplication->run()
+REQUEST_URI=/agdiary/index.php/disposal/create?docid=2579
+in /opt/lampp/htdocs/agdiary/protected/models/Disposal.php (127)
+in /opt/lampp/htdocs/agdiary/protected/controllers/DisposalController.php (98)
+in /opt/lampp/htdocs/agdiary/protected/controllers/DisposalController.php (219)
+2013/11/25 12:33:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "diary report/preview".' in /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController('diary report/pr...')
+#1 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/agdiary/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/agdiary/index.php/diary%20report/preview//
+---
+2013/11/26 18:26:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php:259
+Stack trace:
+#0 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(54): DocumentsController->loadModel('2732')
+#1 [internal function]: DocumentsController->actionView('2732')
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(DocumentsController), Array)
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(DocumentsController), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): CController->run('view')
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController('documents/view')
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/agdiary/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/agdiary/index.php/documents/2732
+HTTP_REFERER=http://172.21.51.47/agdiary/index.php/documents/2731
+---
+2013/11/27 13:25:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php:259
+Stack trace:
+#0 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(54): DocumentsController->loadModel('2741')
+#1 [internal function]: DocumentsController->actionView('2741')
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(DocumentsController), Array)
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(DocumentsController), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): CController->run('view')
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController('documents/view')
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/agdiary/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/agdiary/index.php/documents/2741
+HTTP_REFERER=http://172.21.51.47/agdiary/index.php/documents/2740
+---
+2013/11/27 17:00:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php:259
+Stack trace:
+#0 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(54): DocumentsController->loadModel('2742')
+#1 [internal function]: DocumentsController->actionView('2742')
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(DocumentsController), Array)
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(DocumentsController), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): CController->run('view')
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController('documents/view')
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/agdiary/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/agdiary/index.php/documents/2742
+HTTP_REFERER=http://172.21.51.47/agdiary/index.php/documents/2741
+---
+2013/11/27 17:01:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php:259
+Stack trace:
+#0 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(54): DocumentsController->loadModel('2742')
+#1 [internal function]: DocumentsController->actionView('2742')
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(DocumentsController), Array)
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(DocumentsController), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): CController->run('view')
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController('documents/view')
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/agdiary/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/agdiary/index.php/documents/2742
+HTTP_REFERER=http://172.21.51.47/agdiary/index.php/documents/2741
+---
+2013/12/02 14:39:05 [error] [php] Undefined offset: 2 (/opt/lampp/htdocs/agdiary/protected/models/Documents.php:122)
+Stack trace:
+#0 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CBaseController.php(96): DocumentsController->renderInternal()
+#1 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(870): DocumentsController->renderFile()
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(783): DocumentsController->renderPartial()
+#3 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(247): DocumentsController->render()
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(50): DocumentsController->actionAdmin()
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams()
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): DocumentsController->runAction()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): DocumentsController->filterAccessControl()
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): DocumentsController->runActionWithFilters()
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): DocumentsController->run()
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#15 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/agdiary/index.php(13): CWebApplication->run()
+REQUEST_URI=/agdiary/index.php/documents?Documents%5Bid%5D=&Documents%5Bdiary_number%5D=&Documents%5Bdate_received%5D=&Documents%5Breference_number%5D=&Documents%5Bdate_of_document%5D=28.10.2013&Documents%5Breceived_from%5D=&Documents%5Bdescription%5D=&ajax=documents-grid
+in /opt/lampp/htdocs/agdiary/protected/models/Documents.php (122)
+in /opt/lampp/htdocs/agdiary/protected/views/documents/admin.php (41)
+in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php (247)
+2013/12/04 17:48:13 [error] [php] mktime() expects parameter 4 to be long, string given (/opt/lampp/htdocs/agdiary/protected/models/Documents.php:195)
+Stack trace:
+#0 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/db/ar/CActiveRecord.php(796): Documents->insert()
+#1 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(98): Documents->save()
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(50): DocumentsController->actionCreate()
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams()
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): DocumentsController->runAction()
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): DocumentsController->filterAccessControl()
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): DocumentsController->runActionWithFilters()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): DocumentsController->run()
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#14 /opt/lampp/htdocs/agdiary/index.php(13): CWebApplication->run()
+REQUEST_URI=/agdiary/index.php/documents/create
+in /opt/lampp/htdocs/agdiary/protected/models/Documents.php (195)
+in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php (98)
+in /opt/lampp/htdocs/agdiary/index.php (13)
+2013/12/05 19:09:07 [error] [php] mktime() expects parameter 6 to be long, string given (/opt/lampp/htdocs/agdiary/protected/models/Documents.php:195)
+Stack trace:
+#0 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/db/ar/CActiveRecord.php(796): Documents->insert()
+#1 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(98): Documents->save()
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(50): DocumentsController->actionCreate()
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams()
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): DocumentsController->runAction()
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): DocumentsController->filterAccessControl()
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): DocumentsController->runActionWithFilters()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): DocumentsController->run()
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#14 /opt/lampp/htdocs/agdiary/index.php(13): CWebApplication->run()
+REQUEST_URI=/agdiary/index.php/documents/create
+in /opt/lampp/htdocs/agdiary/protected/models/Documents.php (195)
+in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php (98)
+in /opt/lampp/htdocs/agdiary/index.php (13)
+2013/12/05 19:10:14 [error] [php] mktime() expects parameter 6 to be long, string given (/opt/lampp/htdocs/agdiary/protected/models/Documents.php:195)
+Stack trace:
+#0 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/db/ar/CActiveRecord.php(796): Documents->insert()
+#1 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(98): Documents->save()
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(50): DocumentsController->actionCreate()
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams()
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): DocumentsController->runAction()
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): DocumentsController->filterAccessControl()
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): DocumentsController->runActionWithFilters()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): DocumentsController->run()
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#14 /opt/lampp/htdocs/agdiary/index.php(13): CWebApplication->run()
+REQUEST_URI=/agdiary/index.php/documents/create
+in /opt/lampp/htdocs/agdiary/protected/models/Documents.php (195)
+in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php (98)
+in /opt/lampp/htdocs/agdiary/index.php (13)
+2013/12/05 19:16:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php:259
+Stack trace:
+#0 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(54): DocumentsController->loadModel('2796')
+#1 [internal function]: DocumentsController->actionView('2796')
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(DocumentsController), Array)
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(DocumentsController), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): CController->run('view')
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController('documents/view')
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/agdiary/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/agdiary/index.php/documents/2796
+HTTP_REFERER=http://172.21.51.47/agdiary/index.php/documents/2795
+---
+2013/12/13 15:31:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php:259
+Stack trace:
+#0 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(54): DocumentsController->loadModel('2827')
+#1 [internal function]: DocumentsController->actionView('2827')
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(DocumentsController), Array)
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(DocumentsController), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): CController->run('view')
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController('documents/view')
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/agdiary/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/agdiary/index.php/documents/2827
+HTTP_REFERER=http://172.21.51.47/agdiary/index.php/documents/2826
+---
+2013/12/16 16:15:06 [error] [php] Undefined offset: 2 (/opt/lampp/htdocs/agdiary/protected/models/Documents.php:122)
+Stack trace:
+#0 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CBaseController.php(96): DocumentsController->renderInternal()
+#1 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(870): DocumentsController->renderFile()
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(783): DocumentsController->renderPartial()
+#3 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(247): DocumentsController->render()
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(50): DocumentsController->actionAdmin()
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams()
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): DocumentsController->runAction()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): DocumentsController->filterAccessControl()
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): DocumentsController->runActionWithFilters()
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): DocumentsController->run()
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#15 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/agdiary/index.php(13): CWebApplication->run()
+REQUEST_URI=/agdiary/index.php/documents?Documents%5Bid%5D=&Documents%5Bdiary_number%5D=&Documents%5Bdate_received%5D=&Documents%5Breference_number%5D=&Documents%5Bdate_of_document%5D=27.11.2013&Documents%5Breceived_from%5D=&Documents%5Bdescription%5D=&ajax=documents-grid
+in /opt/lampp/htdocs/agdiary/protected/models/Documents.php (122)
+in /opt/lampp/htdocs/agdiary/protected/views/documents/admin.php (41)
+in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php (247)
+2013/12/17 14:20:10 [error] [php] Undefined offset: 2 (/opt/lampp/htdocs/agdiary/protected/models/Documents.php:194)
+Stack trace:
+#0 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(98): Documents->save()
+#1 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(50): DocumentsController->actionCreate()
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): DocumentsController->runAction()
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): DocumentsController->filterAccessControl()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): DocumentsController->runActionWithFilters()
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): DocumentsController->run()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /opt/lampp/htdocs/agdiary/index.php(13): CWebApplication->run()
+REQUEST_URI=/agdiary/index.php/documents/create
+in /opt/lampp/htdocs/agdiary/protected/models/Documents.php (194)
+in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php (98)
+in /opt/lampp/htdocs/agdiary/index.php (13)
+2013/12/17 14:24:15 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/auth/CAccessControlFilter.php:170
+Stack trace:
+#0 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/auth/CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): CController->run('delete')
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController('marked/delete')
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/agdiary/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/agdiary/index.php/marked/delete/5368?ajax=yw1
+HTTP_REFERER=http://172.21.51.47/agdiary/index.php/documents/2793
+---
+2013/12/17 16:27:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php:259
+Stack trace:
+#0 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(54): DocumentsController->loadModel('2851')
+#1 [internal function]: DocumentsController->actionView('2851')
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(DocumentsController), Array)
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(DocumentsController), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): CController->run('view')
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController('documents/view')
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/agdiary/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/agdiary/index.php/documents/2851
+HTTP_REFERER=http://172.21.51.47/agdiary/index.php/documents/2850
+---
+2013/12/18 17:15:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php:259
+Stack trace:
+#0 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(54): DocumentsController->loadModel('2858')
+#1 [internal function]: DocumentsController->actionView('2858')
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(DocumentsController), Array)
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(DocumentsController), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): CController->run('view')
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController('documents/view')
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/agdiary/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/agdiary/index.php/documents/2858
+HTTP_REFERER=http://172.21.51.47/agdiary/index.php/documents/2857
+---
+2013/12/19 13:02:41 [error] [php] Undefined offset: 2 (/opt/lampp/htdocs/agdiary/protected/models/Documents.php:122)
+Stack trace:
+#0 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CBaseController.php(96): DocumentsController->renderInternal()
+#1 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(870): DocumentsController->renderFile()
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(783): DocumentsController->renderPartial()
+#3 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(247): DocumentsController->render()
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(50): DocumentsController->actionAdmin()
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams()
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): DocumentsController->runAction()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): DocumentsController->filterAccessControl()
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): DocumentsController->runActionWithFilters()
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): DocumentsController->run()
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#15 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/agdiary/index.php(13): CWebApplication->run()
+REQUEST_URI=/agdiary/index.php/documents?Documents%5Bid%5D=&Documents%5Bdiary_number%5D=&Documents%5Bdate_received%5D=&Documents%5Breference_number%5D=&Documents%5Bdate_of_document%5D=21.08.2013&Documents%5Breceived_from%5D=&Documents%5Bdescription%5D=&ajax=documents-grid
+in /opt/lampp/htdocs/agdiary/protected/models/Documents.php (122)
+in /opt/lampp/htdocs/agdiary/protected/views/documents/admin.php (41)
+in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php (247)
+2013/12/19 13:09:38 [error] [php] Undefined offset: 2 (/opt/lampp/htdocs/agdiary/protected/models/Documents.php:122)
+Stack trace:
+#0 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CBaseController.php(96): DocumentsController->renderInternal()
+#1 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(870): DocumentsController->renderFile()
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(783): DocumentsController->renderPartial()
+#3 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(247): DocumentsController->render()
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(50): DocumentsController->actionAdmin()
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams()
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): DocumentsController->runAction()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): DocumentsController->filterAccessControl()
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): DocumentsController->runActionWithFilters()
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): DocumentsController->run()
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#15 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/agdiary/index.php(13): CWebApplication->run()
+REQUEST_URI=/agdiary/index.php/documents?Documents%5Bid%5D=5007&Documents%5Bdiary_number%5D=&Documents%5Bdate_received%5D=&Documents%5Breference_number%5D=&Documents%5Bdate_of_document%5D=27.09.2013&Documents%5Breceived_from%5D=&Documents%5Bdescription%5D=&ajax=documents-grid
+in /opt/lampp/htdocs/agdiary/protected/models/Documents.php (122)
+in /opt/lampp/htdocs/agdiary/protected/views/documents/admin.php (41)
+in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php (247)
+2013/12/19 13:09:49 [error] [php] Undefined offset: 2 (/opt/lampp/htdocs/agdiary/protected/models/Documents.php:122)
+Stack trace:
+#0 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CBaseController.php(96): DocumentsController->renderInternal()
+#1 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(870): DocumentsController->renderFile()
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(783): DocumentsController->renderPartial()
+#3 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(247): DocumentsController->render()
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(50): DocumentsController->actionAdmin()
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams()
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): DocumentsController->runAction()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): DocumentsController->filterAccessControl()
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): DocumentsController->runActionWithFilters()
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): DocumentsController->run()
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#15 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/agdiary/index.php(13): CWebApplication->run()
+REQUEST_URI=/agdiary/index.php/documents?Documents%5Bid%5D=&Documents%5Bdiary_number%5D=5007&Documents%5Bdate_received%5D=&Documents%5Breference_number%5D=&Documents%5Bdate_of_document%5D=27.09.2013&Documents%5Breceived_from%5D=&Documents%5Bdescription%5D=&ajax=documents-grid
+in /opt/lampp/htdocs/agdiary/protected/models/Documents.php (122)
+in /opt/lampp/htdocs/agdiary/protected/views/documents/admin.php (41)
+in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php (247)
+2013/12/19 13:10:02 [error] [php] Undefined offset: 2 (/opt/lampp/htdocs/agdiary/protected/models/Documents.php:122)
+Stack trace:
+#0 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CBaseController.php(96): DocumentsController->renderInternal()
+#1 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(870): DocumentsController->renderFile()
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(783): DocumentsController->renderPartial()
+#3 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(247): DocumentsController->render()
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(50): DocumentsController->actionAdmin()
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams()
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): DocumentsController->runAction()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): DocumentsController->filterAccessControl()
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): DocumentsController->runActionWithFilters()
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): DocumentsController->run()
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#15 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/agdiary/index.php(13): CWebApplication->run()
+REQUEST_URI=/agdiary/index.php/documents?Documents%5Bid%5D=&Documents%5Bdiary_number%5D=&Documents%5Bdate_received%5D=&Documents%5Breference_number%5D=&Documents%5Bdate_of_document%5D=27.09.2013&Documents%5Breceived_from%5D=CGA&Documents%5Bdescription%5D=&ajax=documents-grid
+in /opt/lampp/htdocs/agdiary/protected/models/Documents.php (122)
+in /opt/lampp/htdocs/agdiary/protected/views/documents/admin.php (41)
+in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php (247)
+2013/12/19 13:11:57 [error] [php] Undefined offset: 2 (/opt/lampp/htdocs/agdiary/protected/models/Documents.php:122)
+Stack trace:
+#0 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CBaseController.php(96): DocumentsController->renderInternal()
+#1 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(870): DocumentsController->renderFile()
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(783): DocumentsController->renderPartial()
+#3 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(247): DocumentsController->render()
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(50): DocumentsController->actionAdmin()
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams()
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): DocumentsController->runAction()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): DocumentsController->filterAccessControl()
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): DocumentsController->runActionWithFilters()
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): DocumentsController->run()
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#15 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/agdiary/index.php(13): CWebApplication->run()
+REQUEST_URI=/agdiary/index.php/documents?Documents%5Bid%5D=&Documents%5Bdiary_number%5D=&Documents%5Bdate_received%5D=&Documents%5Breference_number%5D=&Documents%5Bdate_of_document%5D=21.08.2013&Documents%5Breceived_from%5D=&Documents%5Bdescription%5D=senate+recommendation+on+the+financial+bill+2013&ajax=documents-grid
+in /opt/lampp/htdocs/agdiary/protected/models/Documents.php (122)
+in /opt/lampp/htdocs/agdiary/protected/views/documents/admin.php (41)
+in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php (247)
+2013/12/19 13:12:08 [error] [php] Undefined offset: 2 (/opt/lampp/htdocs/agdiary/protected/models/Documents.php:122)
+Stack trace:
+#0 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CBaseController.php(96): DocumentsController->renderInternal()
+#1 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(870): DocumentsController->renderFile()
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(783): DocumentsController->renderPartial()
+#3 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(247): DocumentsController->render()
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(50): DocumentsController->actionAdmin()
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams()
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): DocumentsController->runAction()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): DocumentsController->filterAccessControl()
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): DocumentsController->runActionWithFilters()
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): DocumentsController->run()
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#15 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/agdiary/index.php(13): CWebApplication->run()
+REQUEST_URI=/agdiary/index.php/documents?Documents%5Bid%5D=&Documents%5Bdiary_number%5D=&Documents%5Bdate_received%5D=&Documents%5Breference_number%5D=&Documents%5Bdate_of_document%5D=21.08.2013&Documents%5Breceived_from%5D=CGA&Documents%5Bdescription%5D=senate+recommendation+on+the+financial+bill+2013&ajax=documents-grid
+in /opt/lampp/htdocs/agdiary/protected/models/Documents.php (122)
+in /opt/lampp/htdocs/agdiary/protected/views/documents/admin.php (41)
+in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php (247)
+2013/12/19 13:12:48 [error] [php] Undefined offset: 2 (/opt/lampp/htdocs/agdiary/protected/models/Documents.php:122)
+Stack trace:
+#0 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CBaseController.php(96): DocumentsController->renderInternal()
+#1 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(870): DocumentsController->renderFile()
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(783): DocumentsController->renderPartial()
+#3 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(247): DocumentsController->render()
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(50): DocumentsController->actionAdmin()
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams()
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): DocumentsController->runAction()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): DocumentsController->filterAccessControl()
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): DocumentsController->runActionWithFilters()
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): DocumentsController->run()
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#15 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/agdiary/index.php(13): CWebApplication->run()
+REQUEST_URI=/agdiary/index.php/documents?Documents%5Bid%5D=&Documents%5Bdiary_number%5D=&Documents%5Bdate_received%5D=&Documents%5Breference_number%5D=&Documents%5Bdate_of_document%5D=25.08.2013&Documents%5Breceived_from%5D=CGA&Documents%5Bdescription%5D=senate+recommendation+on+the+financial+bill+2013&ajax=documents-grid
+in /opt/lampp/htdocs/agdiary/protected/models/Documents.php (122)
+in /opt/lampp/htdocs/agdiary/protected/views/documents/admin.php (41)
+in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php (247)
+2013/12/19 13:13:22 [error] [php] Undefined offset: 2 (/opt/lampp/htdocs/agdiary/protected/models/Documents.php:122)
+Stack trace:
+#0 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CBaseController.php(96): DocumentsController->renderInternal()
+#1 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(870): DocumentsController->renderFile()
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(783): DocumentsController->renderPartial()
+#3 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(247): DocumentsController->render()
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(50): DocumentsController->actionAdmin()
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams()
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): DocumentsController->runAction()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): DocumentsController->filterAccessControl()
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): DocumentsController->runActionWithFilters()
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): DocumentsController->run()
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#15 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/agdiary/index.php(13): CWebApplication->run()
+REQUEST_URI=/agdiary/index.php/documents?Documents%5Bid%5D=4900&Documents%5Bdiary_number%5D=&Documents%5Bdate_received%5D=&Documents%5Breference_number%5D=&Documents%5Bdate_of_document%5D=25.08.2013&Documents%5Breceived_from%5D=CGA&Documents%5Bdescription%5D=senate+recommendation+on+the+financial+bill+2013&ajax=documents-grid
+in /opt/lampp/htdocs/agdiary/protected/models/Documents.php (122)
+in /opt/lampp/htdocs/agdiary/protected/views/documents/admin.php (41)
+in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php (247)
+2013/12/19 13:16:21 [error] [php] Undefined offset: 2 (/opt/lampp/htdocs/agdiary/protected/models/Documents.php:122)
+Stack trace:
+#0 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CBaseController.php(96): DocumentsController->renderInternal()
+#1 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(870): DocumentsController->renderFile()
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(783): DocumentsController->renderPartial()
+#3 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(247): DocumentsController->render()
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(50): DocumentsController->actionAdmin()
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams()
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): DocumentsController->runAction()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): DocumentsController->filterAccessControl()
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): DocumentsController->runActionWithFilters()
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): DocumentsController->run()
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#15 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/agdiary/index.php(13): CWebApplication->run()
+REQUEST_URI=/agdiary/index.php/documents?Documents%5Bid%5D=&Documents%5Bdiary_number%5D=5007&Documents%5Bdate_received%5D=&Documents%5Breference_number%5D=&Documents%5Bdate_of_document%5D=27.09.2013&Documents%5Breceived_from%5D=&Documents%5Bdescription%5D=&ajax=documents-grid
+in /opt/lampp/htdocs/agdiary/protected/models/Documents.php (122)
+in /opt/lampp/htdocs/agdiary/protected/views/documents/admin.php (41)
+in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php (247)
+2013/12/23 12:19:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php:259
+Stack trace:
+#0 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(54): DocumentsController->loadModel('2875')
+#1 [internal function]: DocumentsController->actionView('2875')
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(DocumentsController), Array)
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(DocumentsController), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): CController->run('view')
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController('documents/view')
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/agdiary/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/agdiary/index.php/documents/2875
+HTTP_REFERER=http://172.21.51.47/agdiary/index.php/documents/2874
+---
+2013/12/23 13:36:37 [error] [php] Undefined offset: 2 (/opt/lampp/htdocs/agdiary/protected/models/Disposal.php:127)
+Stack trace:
+#0 /opt/lampp/htdocs/agdiary/protected/controllers/DisposalController.php(98): Disposal->save()
+#1 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(50): DisposalController->actionCreate()
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): DisposalController->runAction()
+#4 /opt/lampp/htdocs/agdiary/protected/controllers/DisposalController.php(219): CFilterChain->run()
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): DisposalController->filterDocumentContext()
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): DisposalController->filterAccessControl()
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): DisposalController->runActionWithFilters()
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): DisposalController->run()
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#15 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/agdiary/index.php(13): CWebApplication->run()
+REQUEST_URI=/agdiary/index.php/disposal/create?docid=2847
+in /opt/lampp/htdocs/agdiary/protected/models/Disposal.php (127)
+in /opt/lampp/htdocs/agdiary/protected/controllers/DisposalController.php (98)
+in /opt/lampp/htdocs/agdiary/protected/controllers/DisposalController.php (219)
+2013/12/27 12:22:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php:259
+Stack trace:
+#0 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(54): DocumentsController->loadModel('2901')
+#1 [internal function]: DocumentsController->actionView('2901')
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(DocumentsController), Array)
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(DocumentsController), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): CController->run('view')
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController('documents/view')
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/agdiary/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/agdiary/index.php/documents/2901
+HTTP_REFERER=http://172.21.51.47/agdiary/index.php/documents/2900
+---
+2013/12/30 14:54:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php:259
+Stack trace:
+#0 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(54): DocumentsController->loadModel('2908')
+#1 [internal function]: DocumentsController->actionView('2908')
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(DocumentsController), Array)
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(DocumentsController), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): CController->run('view')
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController('documents/view')
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/agdiary/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/agdiary/index.php/documents/2908
+HTTP_REFERER=http://172.21.51.47/agdiary/index.php/documents/2907
+---
+2013/12/30 15:45:50 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php:337
+Stack trace:
+#0 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): CController->run('pview')
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController('diaryreport/pvi...')
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#11 /opt/lampp/htdocs/agdiary/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/agdiary/index.php/diaryreport/pview//
+HTTP_REFERER=https://172.21.51.47/agdiary/index.php/site/login
+---
+2013/12/30 17:21:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php:259
+Stack trace:
+#0 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(54): DocumentsController->loadModel('2908')
+#1 [internal function]: DocumentsController->actionView('2908')
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(DocumentsController), Array)
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(DocumentsController), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): CController->run('view')
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController('documents/view')
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/agdiary/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/agdiary/index.php/documents/2908
+HTTP_REFERER=http://172.21.51.47/agdiary/index.php/documents/2907
+---
+2014/01/01 14:22:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php:259
+Stack trace:
+#0 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(54): DocumentsController->loadModel('2919')
+#1 [internal function]: DocumentsController->actionView('2919')
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(DocumentsController), Array)
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(DocumentsController), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): CController->run('view')
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController('documents/view')
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/agdiary/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/agdiary/index.php/documents/2919
+HTTP_REFERER=http://172.21.51.47/agdiary/index.php/documents/2918
+---
+2014/01/01 16:50:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php:259
+Stack trace:
+#0 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(54): DocumentsController->loadModel('2920')
+#1 [internal function]: DocumentsController->actionView('2920')
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(DocumentsController), Array)
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(DocumentsController), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): CController->run('view')
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController('documents/view')
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/agdiary/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/agdiary/index.php/documents/2920
+HTTP_REFERER=http://172.21.51.47/agdiary/index.php/documents/2919
+---
+2014/01/01 16:51:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php:259
+Stack trace:
+#0 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(54): DocumentsController->loadModel('2920')
+#1 [internal function]: DocumentsController->actionView('2920')
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(DocumentsController), Array)
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(DocumentsController), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): CController->run('view')
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController('documents/view')
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/agdiary/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/agdiary/index.php/documents/2920
+HTTP_REFERER=http://172.21.51.47/agdiary/index.php/documents/2919
+---
+2014/01/01 16:51:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php:259
+Stack trace:
+#0 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(54): DocumentsController->loadModel('2920')
+#1 [internal function]: DocumentsController->actionView('2920')
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(DocumentsController), Array)
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(DocumentsController), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): CController->run('view')
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController('documents/view')
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/agdiary/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/agdiary/index.php/documents/2920
+HTTP_REFERER=http://172.21.51.47/agdiary/index.php/documents/2919
+---
+2014/01/06 17:08:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php:259
+Stack trace:
+#0 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(54): DocumentsController->loadModel('2934')
+#1 [internal function]: DocumentsController->actionView('2934')
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(DocumentsController), Array)
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(DocumentsController), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): CController->run('view')
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController('documents/view')
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/agdiary/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/agdiary/index.php/documents/2934
+HTTP_REFERER=http://172.21.51.47/agdiary/index.php/documents/2933
+---
+2014/01/10 18:33:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php:259
+Stack trace:
+#0 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(54): DocumentsController->loadModel('2960')
+#1 [internal function]: DocumentsController->actionView('2960')
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(DocumentsController), Array)
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(DocumentsController), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): CController->run('view')
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController('documents/view')
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/agdiary/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/agdiary/index.php/documents/2960
+HTTP_REFERER=http://172.21.51.47/agdiary/index.php/documents/2959
+---
+2014/01/10 18:35:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php:259
+Stack trace:
+#0 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(54): DocumentsController->loadModel('2960')
+#1 [internal function]: DocumentsController->actionView('2960')
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(DocumentsController), Array)
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(DocumentsController), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): CController->run('view')
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController('documents/view')
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/agdiary/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/agdiary/index.php/documents/2960
+HTTP_REFERER=http://172.21.51.47/agdiary/index.php/documents/2959
+---
+2014/01/10 18:47:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php:259
+Stack trace:
+#0 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(54): DocumentsController->loadModel('2964')
+#1 [internal function]: DocumentsController->actionView('2964')
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(DocumentsController), Array)
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(DocumentsController), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): CController->run('view')
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController('documents/view')
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/agdiary/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/agdiary/index.php/documents/2964
+HTTP_REFERER=http://172.21.51.47/agdiary/index.php/documents/2963
+---
+2014/01/17 13:21:09 [error] [php] Undefined offset: 2 (/opt/lampp/htdocs/agdiary/protected/models/Documents.php:115)
+Stack trace:
+#0 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CBaseController.php(96): DocumentsController->renderInternal()
+#1 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(870): DocumentsController->renderFile()
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(783): DocumentsController->renderPartial()
+#3 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(247): DocumentsController->render()
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(50): DocumentsController->actionAdmin()
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams()
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): DocumentsController->runAction()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): DocumentsController->filterAccessControl()
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): DocumentsController->runActionWithFilters()
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): DocumentsController->run()
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#15 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/agdiary/index.php(13): CWebApplication->run()
+REQUEST_URI=/agdiary/index.php/documents?Documents%5Bid%5D=&Documents%5Bdiary_number%5D=6092&Documents%5Bdate_received%5D=12%2F11%2F2013&Documents%5Breference_number%5D=&Documents%5Bdate_of_document%5D=&Documents%5Breceived_from%5D=&Documents%5Bdescription%5D=&ajax=documents-grid
+in /opt/lampp/htdocs/agdiary/protected/models/Documents.php (115)
+in /opt/lampp/htdocs/agdiary/protected/views/documents/admin.php (41)
+in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php (247)
+2014/01/17 13:26:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php:259
+Stack trace:
+#0 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(54): DocumentsController->loadModel('2981')
+#1 [internal function]: DocumentsController->actionView('2981')
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(DocumentsController), Array)
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(DocumentsController), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): CController->run('view')
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController('documents/view')
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/agdiary/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/agdiary/index.php/documents/2981
+HTTP_REFERER=http://172.21.51.47/agdiary/index.php/documents/2980
+---
+2014/01/17 17:38:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php:259
+Stack trace:
+#0 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(54): DocumentsController->loadModel('2987')
+#1 [internal function]: DocumentsController->actionView('2987')
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(DocumentsController), Array)
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(DocumentsController), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): CController->run('view')
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController('documents/view')
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/agdiary/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/agdiary/index.php/documents/2987
+HTTP_REFERER=http://172.21.51.47/agdiary/index.php/documents/2986
+---
+2014/01/17 17:38:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php:259
+Stack trace:
+#0 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(54): DocumentsController->loadModel('2987')
+#1 [internal function]: DocumentsController->actionView('2987')
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(DocumentsController), Array)
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(DocumentsController), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): CController->run('view')
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController('documents/view')
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/agdiary/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/agdiary/index.php/documents/2987
+HTTP_REFERER=http://172.21.51.47/agdiary/index.php/documents/2986
+---
+2014/01/22 14:48:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php:259
+Stack trace:
+#0 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(54): DocumentsController->loadModel('3008')
+#1 [internal function]: DocumentsController->actionView('3008')
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(DocumentsController), Array)
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(DocumentsController), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): CController->run('view')
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController('documents/view')
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/agdiary/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/agdiary/index.php/documents/3008
+HTTP_REFERER=http://172.21.51.47/agdiary/index.php/documents/3007
+---
+2014/01/23 13:43:52 [error] [php] Undefined offset: 2 (/opt/lampp/htdocs/agdiary/protected/models/Documents.php:115)
+Stack trace:
+#0 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CBaseController.php(96): DocumentsController->renderInternal()
+#1 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(870): DocumentsController->renderFile()
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(783): DocumentsController->renderPartial()
+#3 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(247): DocumentsController->render()
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(50): DocumentsController->actionAdmin()
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams()
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): DocumentsController->runAction()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): DocumentsController->filterAccessControl()
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): DocumentsController->runActionWithFilters()
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): DocumentsController->run()
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#15 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/agdiary/index.php(13): CWebApplication->run()
+REQUEST_URI=/agdiary/index.php/documents?Documents%5Bid%5D=&Documents%5Bdiary_number%5D=&Documents%5Bdate_received%5D=0637&Documents%5Breference_number%5D=&Documents%5Bdate_of_document%5D=&Documents%5Breceived_from%5D=&Documents%5Bdescription%5D=&ajax=documents-grid
+in /opt/lampp/htdocs/agdiary/protected/models/Documents.php (115)
+in /opt/lampp/htdocs/agdiary/protected/views/documents/admin.php (41)
+in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php (247)
+2014/01/23 13:43:54 [error] [php] Undefined offset: 2 (/opt/lampp/htdocs/agdiary/protected/models/Documents.php:115)
+Stack trace:
+#0 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CBaseController.php(96): DocumentsController->renderInternal()
+#1 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(870): DocumentsController->renderFile()
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(783): DocumentsController->renderPartial()
+#3 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(247): DocumentsController->render()
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(50): DocumentsController->actionAdmin()
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams()
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): DocumentsController->runAction()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): DocumentsController->filterAccessControl()
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): DocumentsController->runActionWithFilters()
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): DocumentsController->run()
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#15 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/agdiary/index.php(13): CWebApplication->run()
+REQUEST_URI=/agdiary/index.php/documents?Documents%5Bid%5D=&Documents%5Bdiary_number%5D=&Documents%5Bdate_received%5D=0637&Documents%5Breference_number%5D=&Documents%5Bdate_of_document%5D=&Documents%5Breceived_from%5D=&Documents%5Bdescription%5D=&ajax=documents-grid
+in /opt/lampp/htdocs/agdiary/protected/models/Documents.php (115)
+in /opt/lampp/htdocs/agdiary/protected/views/documents/admin.php (41)
+in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php (247)
+2014/02/06 13:14:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "login".' in /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController('login')
+#1 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/agdiary/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/agdiary/index.php/login
+---
+2014/02/06 17:12:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php:259
+Stack trace:
+#0 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(54): DocumentsController->loadModel('3064')
+#1 [internal function]: DocumentsController->actionView('3064')
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(DocumentsController), Array)
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(DocumentsController), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): CController->run('view')
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController('documents/view')
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/agdiary/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/agdiary/index.php/documents/3064
+HTTP_REFERER=http://172.21.51.47/agdiary/index.php/documents/3063
+---
+2014/03/11 14:09:41 [error] [php] Undefined offset: 2 (/opt/lampp/htdocs/agdiary/protected/models/Documents.php:122)
+Stack trace:
+#0 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CBaseController.php(96): DocumentsController->renderInternal()
+#1 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(870): DocumentsController->renderFile()
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(783): DocumentsController->renderPartial()
+#3 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(247): DocumentsController->render()
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(50): DocumentsController->actionAdmin()
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams()
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): DocumentsController->runAction()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): DocumentsController->filterAccessControl()
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): DocumentsController->runActionWithFilters()
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): DocumentsController->run()
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#15 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/agdiary/index.php(13): CWebApplication->run()
+REQUEST_URI=/agdiary/index.php/documents?Documents%5Bid%5D=&Documents%5Bdiary_number%5D=&Documents%5Bdate_received%5D=&Documents%5Breference_number%5D=&Documents%5Bdate_of_document%5D=27.02.2014&Documents%5Breceived_from%5D=&Documents%5Bdescription%5D=&ajax=documents-grid
+in /opt/lampp/htdocs/agdiary/protected/models/Documents.php (122)
+in /opt/lampp/htdocs/agdiary/protected/views/documents/admin.php (41)
+in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php (247)
+2014/03/17 13:20:53 [error] [php] Undefined offset: 2 (/opt/lampp/htdocs/agdiary/protected/models/Disposal.php:127)
+Stack trace:
+#0 /opt/lampp/htdocs/agdiary/protected/controllers/DisposalController.php(98): Disposal->save()
+#1 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(50): DisposalController->actionCreate()
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): DisposalController->runAction()
+#4 /opt/lampp/htdocs/agdiary/protected/controllers/DisposalController.php(219): CFilterChain->run()
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): DisposalController->filterDocumentContext()
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): DisposalController->filterAccessControl()
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): DisposalController->runActionWithFilters()
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): DisposalController->run()
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#15 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/agdiary/index.php(13): CWebApplication->run()
+REQUEST_URI=/agdiary/index.php/disposal/create?docid=2669
+in /opt/lampp/htdocs/agdiary/protected/models/Disposal.php (127)
+in /opt/lampp/htdocs/agdiary/protected/controllers/DisposalController.php (98)
+in /opt/lampp/htdocs/agdiary/protected/controllers/DisposalController.php (219)
+2014/03/17 13:30:19 [error] [php] Undefined offset: 2 (/opt/lampp/htdocs/agdiary/protected/models/Disposal.php:127)
+Stack trace:
+#0 /opt/lampp/htdocs/agdiary/protected/controllers/DisposalController.php(98): Disposal->save()
+#1 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(50): DisposalController->actionCreate()
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): DisposalController->runAction()
+#4 /opt/lampp/htdocs/agdiary/protected/controllers/DisposalController.php(219): CFilterChain->run()
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): DisposalController->filterDocumentContext()
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): DisposalController->filterAccessControl()
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): DisposalController->runActionWithFilters()
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): DisposalController->run()
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#15 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/agdiary/index.php(13): CWebApplication->run()
+REQUEST_URI=/agdiary/index.php/disposal/create?docid=2687
+in /opt/lampp/htdocs/agdiary/protected/models/Disposal.php (127)
+in /opt/lampp/htdocs/agdiary/protected/controllers/DisposalController.php (98)
+in /opt/lampp/htdocs/agdiary/protected/controllers/DisposalController.php (219)
+2014/03/17 14:22:34 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/auth/CAccessControlFilter.php:170
+Stack trace:
+#0 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/auth/CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): CController->run('delete')
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController('marked/delete')
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/agdiary/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/agdiary/index.php/marked/delete/5969?ajax=yw1
+HTTP_REFERER=http://172.21.51.47/agdiary/index.php/documents/3226
+---
+2014/03/21 14:17:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php:259
+Stack trace:
+#0 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(54): DocumentsController->loadModel('3312')
+#1 [internal function]: DocumentsController->actionView('3312')
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(DocumentsController), Array)
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(DocumentsController), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): CController->run('view')
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController('documents/view')
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/agdiary/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/agdiary/index.php/documents/3312
+HTTP_REFERER=http://172.21.51.47/agdiary/index.php/documents/3311
+---
+2014/03/24 16:49:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php:259
+Stack trace:
+#0 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(54): DocumentsController->loadModel('3313')
+#1 [internal function]: DocumentsController->actionView('3313')
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(DocumentsController), Array)
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(DocumentsController), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): CController->run('view')
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController('documents/view')
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/agdiary/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/agdiary/index.php/documents/3313
+HTTP_REFERER=http://172.21.51.47/agdiary/index.php/documents/3312
+---
+2014/03/24 17:19:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php:259
+Stack trace:
+#0 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(54): DocumentsController->loadModel('3325')
+#1 [internal function]: DocumentsController->actionView('3325')
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(DocumentsController), Array)
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(DocumentsController), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): CController->run('view')
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController('documents/view')
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/agdiary/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/agdiary/index.php/documents/3325
+HTTP_REFERER=http://172.21.51.47/agdiary/index.php/documents/3324
+---
+2014/03/27 12:54:49 [error] [php] Undefined offset: 2 (/opt/lampp/htdocs/agdiary/protected/models/Disposal.php:127)
+Stack trace:
+#0 /opt/lampp/htdocs/agdiary/protected/controllers/DisposalController.php(98): Disposal->save()
+#1 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(50): DisposalController->actionCreate()
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): DisposalController->runAction()
+#4 /opt/lampp/htdocs/agdiary/protected/controllers/DisposalController.php(219): CFilterChain->run()
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): DisposalController->filterDocumentContext()
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): DisposalController->filterAccessControl()
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): DisposalController->runActionWithFilters()
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): DisposalController->run()
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#15 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/agdiary/index.php(13): CWebApplication->run()
+REQUEST_URI=/agdiary/index.php/disposal/create?docid=2885
+in /opt/lampp/htdocs/agdiary/protected/models/Disposal.php (127)
+in /opt/lampp/htdocs/agdiary/protected/controllers/DisposalController.php (98)
+in /opt/lampp/htdocs/agdiary/protected/controllers/DisposalController.php (219)
+2014/04/03 12:24:33 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/auth/CAccessControlFilter.php:170
+Stack trace:
+#0 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/auth/CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): CController->run('delete')
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController('disposal/delete')
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/agdiary/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/agdiary/index.php/disposal/delete/2981?ajax=yw3
+HTTP_REFERER=http://172.21.51.47/agdiary/index.php/documents/3325
+---
+2014/04/11 14:08:08 [error] [php] Undefined offset: 2 (/opt/lampp/htdocs/agdiary/protected/models/Disposal.php:127)
+Stack trace:
+#0 /opt/lampp/htdocs/agdiary/protected/controllers/DisposalController.php(98): Disposal->save()
+#1 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(50): DisposalController->actionCreate()
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): DisposalController->runAction()
+#4 /opt/lampp/htdocs/agdiary/protected/controllers/DisposalController.php(219): CFilterChain->run()
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): DisposalController->filterDocumentContext()
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): DisposalController->filterAccessControl()
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): DisposalController->runActionWithFilters()
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): DisposalController->run()
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#15 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/agdiary/index.php(13): CWebApplication->run()
+REQUEST_URI=/agdiary/index.php/disposal/create?docid=3398
+in /opt/lampp/htdocs/agdiary/protected/models/Disposal.php (127)
+in /opt/lampp/htdocs/agdiary/protected/controllers/DisposalController.php (98)
+in /opt/lampp/htdocs/agdiary/protected/controllers/DisposalController.php (219)
+2014/04/11 15:01:05 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/auth/CAccessControlFilter.php:170
+Stack trace:
+#0 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/auth/CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): CController->run('delete')
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController('marked/delete')
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/agdiary/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/agdiary/index.php/marked/delete/5969?ajax=yw1
+HTTP_REFERER=http://172.21.51.47/agdiary/index.php/documents/3226
+---
+2014/04/11 15:13:06 [error] [php] Undefined offset: 2 (/opt/lampp/htdocs/agdiary/protected/models/Disposal.php:127)
+Stack trace:
+#0 /opt/lampp/htdocs/agdiary/protected/controllers/DisposalController.php(98): Disposal->save()
+#1 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(50): DisposalController->actionCreate()
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): DisposalController->runAction()
+#4 /opt/lampp/htdocs/agdiary/protected/controllers/DisposalController.php(219): CFilterChain->run()
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): DisposalController->filterDocumentContext()
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): DisposalController->filterAccessControl()
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): DisposalController->runActionWithFilters()
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): DisposalController->run()
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#15 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/agdiary/index.php(13): CWebApplication->run()
+REQUEST_URI=/agdiary/index.php/disposal/create?docid=3265
+in /opt/lampp/htdocs/agdiary/protected/models/Disposal.php (127)
+in /opt/lampp/htdocs/agdiary/protected/controllers/DisposalController.php (98)
+in /opt/lampp/htdocs/agdiary/protected/controllers/DisposalController.php (219)
+2014/04/14 18:26:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php:259
+Stack trace:
+#0 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(54): DocumentsController->loadModel('3418')
+#1 [internal function]: DocumentsController->actionView('3418')
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(DocumentsController), Array)
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(DocumentsController), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): CController->run('view')
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController('documents/view')
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/agdiary/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/agdiary/index.php/documents/3418
+HTTP_REFERER=http://172.21.51.47/agdiary/index.php/documents/3417
+---
+2014/04/14 18:45:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php:259
+Stack trace:
+#0 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(54): DocumentsController->loadModel('3422')
+#1 [internal function]: DocumentsController->actionView('3422')
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(DocumentsController), Array)
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(DocumentsController), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): CController->run('view')
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController('documents/view')
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/agdiary/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/agdiary/index.php/documents/3422
+HTTP_REFERER=http://172.21.51.47/agdiary/index.php/documents/3421
+---
+2014/04/14 18:45:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php:259
+Stack trace:
+#0 /opt/lampp/htdocs/agdiary/protected/controllers/DocumentsController.php(54): DocumentsController->loadModel('3422')
+#1 [internal function]: DocumentsController->actionView('3422')
+#2 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(DocumentsController), Array)
+#3 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(DocumentsController), Object(ReflectionMethod), Array)
+#4 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(292): CFilterChain->run()
+#11 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(283): CController->run('view')
+#13 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/web/CWebApplication.php(142): CWebApplication->runController('documents/view')
+#14 /opt/lampp/htdocs/yiiframework/1.1.12.b600af/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/agdiary/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/agdiary/index.php/documents/3422
+HTTP_REFERER=http://172.21.51.47/agdiary/index.php/documents/3421
+---

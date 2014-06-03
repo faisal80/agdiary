@@ -1,0 +1,45 @@
+/* -----------------------------------------------------------------------
+
+
+ Blueprint CSS Framework 1.0.1
+ http://blueprintcss.org
+
+   * Copyright (c) 2007-Present. See LICENSE for more info.
+   * See README for instructions on how to use Blueprint.
+   * For credits and origins, see AUTHORS.
+   * This is a compressed file. See the sources in the 'src' directory.
+
+----------------------------------------------------------------------- */
+
+/* print.css */
+body {line-height:1.5;font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;color:black;background:none;font-size:12pt;font-color:black;}
+.container {background:none;}
+hr {background:#ccc;color:#ccc;width:100%;height:2px;margin:2em 0;padding:0;border:none;}
+hr.space {background:#fff;color:#fff;visibility:hidden;}
+h1, h2, h3, h4, h5, h6 {font-family:"Helvetica Neue", Arial, "Lucida Grande", sans-serif;}
+code {font:.9em "Courier New", Monaco, Courier, monospace;}
+a img {border:none;}
+p img.top {margin-top:0;}
+blockquote {margin:1.5em;padding:1em;font-style:italic;font-size:.9em;}
+.small {font-size:.9em;}
+.large {font-size:1.1em;}
+.quiet {color:#999;}
+.hide {display:none;}
+a:link, a:visited {background:transparent;font-weight:normal;text-decoration:none;color:black;}
+/*a:link:after, a:visited:after {content:" (" attr(href) ")";font-size:90%;}*/
+
+/* My style */
+@page {size: landscape;}
+.container, #header {border: none !important; vertical-align: middle;}
+#mainmenu, .breadcrumbs, .summary, .no-print {display: none !important;}
+#date {border-top: solid 1px black;}
+.grid-view {padding:0;}
+/*.grid-view table.items th, .grid-view table.items td {border: 1px black solid; border-collapse: collapse;  color: black;}*/
+
+#content table {border:1px;border-color:black;border-collapse:collapse;}
+#content th {color:black; font-weight:bold;}
+#content td, #content th {border:solid; border-color:black; color:black; }
+#content td, #content tr {widow:0; orphan:0; }
+#mainmenu, .breadcrumbs, #footer {display:none;}
+#page.container #header #logo {color:black;text-align:center;border:none; vertical-align: middle !important;}
+#page.container #header {border: none; vertical-align: middle; }
