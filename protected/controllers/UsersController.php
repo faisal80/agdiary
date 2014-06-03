@@ -38,6 +38,10 @@ class UsersController extends Controller
 				'actions'=>array('admin','delete'),
 				'users'=>array('admin'),
 			),
+			array('allow',
+				'actions'=>array('changepwd'),
+				'users'=>array('@')
+			),
 			array('deny',  // deny all users
 				'users'=>array('*'),
 			),
@@ -148,6 +152,36 @@ class UsersController extends Controller
 		));
 	}
 
+	/**
+	 * Changes the password of the current user
+	 */
+	public function actionChangepwd()
+	{
+		$model=$this->loadModel(Yii::app()->user->id);
+		$model->scenario = 'changepwd';
+		
+		// Uncomment the following line if AJAX validation is needed
+		// $this->performAjaxValidation($model);
+
+		if(isset($_POST['User']))
+		{
+			$model->attributes=$_POST['User'];
+			if($model->authenticate($model->username, $model->passwd))
+			{
+				$model->passwd = $model->newpasswd;
+				if($model->save())
+				{
+					Yii::app()->user->setFlash('PasswdChanged', 'Password changed successfully.');
+					//$this->redirect(array('/'));
+				}
+			}
+		}
+		
+		$this->render('changepwd',array(
+			'model'=>$model,
+		));
+	}
+    
 	/**
 	 * Returns the data model based on the primary key given in the GET variable.
 	 * If the data model is not found, an HTTP exception will be raised.

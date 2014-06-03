@@ -149,7 +149,23 @@ class Users extends AGDiaryActiveRecord
 		$_officer = Officers::model()->findByPk($this->getOfficerID());
 		return $_officer->level;
 	}
-	
+
+	/**
+	 * Authenticates the password.
+	 * This is the 'authenticate' validator as declared in rules().
+	 */
+	public function authenticate($_username, $_passwd)
+	{
+		$this->_identity=new UserIdentity($_username,$_passwd);
+		if($this->_identity->authenticate())
+		{
+			return true;
+		} else {
+			$this->addError('passwd', 'Invalid password');
+			return false;
+		}
+	}
+    
 	/**
 	 * perform one-way encryption on the password before we store it in	the database
 	 */
