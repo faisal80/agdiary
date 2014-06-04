@@ -163,12 +163,12 @@ class UsersController extends Controller
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['User']))
+		if(isset($_POST['Users']))
 		{
-			$model->attributes=$_POST['User'];
-			if($model->authenticate($model->username, $model->passwd))
+			$model->attributes=$_POST['Users'];
+			if($model->authenticate($model->username, $model->password))
 			{
-				$model->passwd = $model->newpasswd;
+				$model->password = $model->newpasswd;
 				if($model->save())
 				{
 					Yii::app()->user->setFlash('PasswdChanged', 'Password changed successfully.');

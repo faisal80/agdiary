@@ -20,7 +20,10 @@ class Users extends AGDiaryActiveRecord
 {
 	
 	public $password_repeat;
+	public $newpasswd;
+	public $newpasswd_repeat;
 	
+	private $_identity; 	
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
@@ -49,8 +52,10 @@ class Users extends AGDiaryActiveRecord
 		return array(
 			array('officer_id, create_time, create_user, update_user', 'required'),
 			array('username', 'unique'),
-			array('password', 'compare'),
+			array('password', 'compare', 'on'=>'insert'),
 			array('create_user, update_user', 'numerical', 'integerOnly'=>true),
+            array('newpasswd', 'required', 'on'=>'changepwd'),
+            array('newpasswd_repeat', 'compare', 'compareAttribute'=>'newpasswd', 'on'=>'changepwd'),
 			array('username', 'length', 'max'=>100),
 			array('password', 'length', 'max'=>255),
 			array('officer_id', 'length', 'max'=>10),

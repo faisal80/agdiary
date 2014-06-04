@@ -6,7 +6,7 @@ $this->breadcrumbs=array(
 ?>
 <center>
 <h1>Diary System of Accountant General</h1>
-<div style="background-image: url('../../images/pak_bg.png'); height:250px; background-repeat:no-repeat; background-position:center;">
+<div style="background-image: url('../images/pak_bg.png'); height:250px; background-repeat:no-repeat; background-position:center;">
 	<h2>Khyber Pakhtunkhwa</h2>
 </div>
 

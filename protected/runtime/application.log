@@ -1708,3 +1708,38 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/agdiary/user/changepwd
 ---
+2014/06/04 17:43:21 [error] [exception.CException] exception 'CException' with message 'Property "CMenu.0" is not defined.' in D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\base\CComponent.php:174
+Stack trace:
+#0 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CWidgetFactory.php(162): CComponent->__set('0', Array)
+#1 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(SiteController), 'zii.widgets.CMe...', Array)
+#2 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.CMe...', Array)
+#3 D:\Faisal\xampp\htdocs\agdiary\protected\views\layouts\main.php(46): CBaseController->widget('zii.widgets.CMe...', Array)
+#4 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CBaseController.php(127): require('D:\Faisal\xampp...')
+#5 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\Faisal\xampp...', Array, true)
+#6 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('D:\Faisal\xampp...', Array, true)
+#7 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#8 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#9 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CBaseController.php(207): COutputProcessor->run()
+#10 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#11 D:\Faisal\xampp\htdocs\agdiary\protected\views\layouts\column1.php(5): CBaseController->endContent()
+#12 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CBaseController.php(127): require('D:\Faisal\xampp...')
+#13 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\Faisal\xampp...', Array, true)
+#14 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CController.php(785): CBaseController->renderFile('D:\Faisal\xampp...', Array, true)
+#15 D:\Faisal\xampp\htdocs\agdiary\protected\controllers\SiteController.php(100): CController->render('index', Array)
+#16 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#17 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#18 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#19 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#20 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#21 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#22 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#23 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#24 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('')
+#26 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#27 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#28 D:\Faisal\xampp\htdocs\agdiary\index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/agdiary/
+HTTP_REFERER=http://localhost/agdiary/site/login
+---

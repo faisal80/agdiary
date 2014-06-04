@@ -30,19 +30,19 @@ $this->breadcrumbs=array(
 	<?php echo $form->errorSummary($model); ?>
 	
 	<div class="row">
-		<?php echo '<label for="User_passwd" class="required">Enter your current password<span class="required">*</span></label>'; ?>
-		<?php echo $form->passwordField($model,'passwd',array('size'=>60,'maxlength'=>255, 'value'=>'')); ?>
-		<?php echo $form->error($model,'passwd'); ?>
+		<?php echo '<label for="User_password" class="required">Enter your current password<span class="required">*</span></label>'; ?>
+		<?php echo $form->passwordField($model,'password',array('size'=>60,'maxlength'=>255, 'value'=>'')); ?>
+		<?php echo $form->error($model,'password'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo '<label for="User_passwd" class="required">Enter new password<span class="required">*</span></label>'; ?>
+		<?php echo '<label for="User_newpasswd" class="required">Enter new password<span class="required">*</span></label>'; ?>
 		<?php echo $form->passwordField($model,'newpasswd',array('size'=>60,'maxlength'=>255, 'value'=>'')); ?>
 		<?php echo $form->error($model,'newpasswd'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo '<label for="User_passwd" class="required">Re-enter new password<span class="required">*</span></label>'; ?>
+		<?php echo '<label for="User_newpasswd_repeat" class="required">Re-enter new password<span class="required">*</span></label>'; ?>
 		<?php echo $form->passwordField($model,'newpasswd_repeat',array('size'=>60,'maxlength'=>255, 'value'=>'')); ?>
 		<?php echo $form->error($model,'newpasswd_repeat'); ?>
 	</div>

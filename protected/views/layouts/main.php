@@ -13,6 +13,7 @@
 
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
+  	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/custom.css" />
 	<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="<?php echo Yii::app()->request->baseUrl; ?>/favicon.ico" />
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
@@ -28,14 +29,20 @@
 		</div>
 	</div><!-- header -->
 
-	<div id="mainmenu">
+	<div id="menu-top"> <!-- previous "mainmenu" -->
 		<?php $this->widget('zii.widgets.CMenu',array(
+            'activeCssClass'=>'active',
+            'activateParents'=>true,
 			'items'=>array(
-				array('label'=>'Documents', 'url'=>array('/documents')),
-				array('label'=>'Diary Report', 'url'=>array('/diaryreport/pendency')),
-				array('label'=>'Search', 'url'=>array('/documents')),
-				array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
-				array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
+				array('label'=>'Documents', 'url'=>array('/documents'), 'htmlOptions'=>array('id'=>'menuDocuments')),
+				array('label'=>'Diary Report', 'url'=>array('/diaryreport/pendency'),'htmlOptions'=>array('id'=>'menuDiaryReport')),
+				array('label'=>'Search', 'url'=>array('/documents'), 'htmlOptions'=>array('id'=>'menuSearch')),
+				array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest, 'htmlOptions'=>array('id'=>'menuLogin')),
+				array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest, 'htmlOptions'=>array('id'=>'menuLogout'), 'submenuHtmlOptions'=>array('id'=>'itemLogin'), 'items'=>array(
+                    array('label'=>'Change Password', 'url'=>array('/users/changepwd')),
+                    array('label'=>'fake', 'url'=>array('#')),
+                    ),
+                )
 			),
 		));?>
 	</div><!-- mainmenu -->
