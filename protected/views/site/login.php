@@ -20,7 +20,7 @@ $this->breadcrumbs=array(
 	),
 )); ?>
 	<h3>Login</h3>
-	<table align="center" style="width:200px;"><tr><td>
+    <table align="center" style="width:200px;"><tr><td>
 		<div class="row">
 			<?php echo $form->labelEx($model,'username'); ?>
 			<?php echo $form->textField($model,'username'); ?>
@@ -32,22 +32,23 @@ $this->breadcrumbs=array(
 			
 		</div>
 	</td></tr>
-	<tr><td>
-			<?php echo $form->error($model,'username'); ?></td>
-	<td>
+        <tr><td>
+			<?php echo $form->error($model,'username'); ?>
+        </td>
+        <td>
 			<?php echo $form->error($model,'password'); ?>
 	</td></tr>
-	<tr><td>
+        <tr><td>
 	<div class="row rememberMe">
 		<?php echo $form->checkBox($model,'rememberMe'); ?>
 		<?php echo $form->label($model,'rememberMe'); ?>
 		<?php echo $form->error($model,'rememberMe'); ?>
 	</div>
-	</td><td>
-	<div class="row buttons">
+            </td><td>
+	<div class="row buttonss">
 		<?php echo CHtml::submitButton('Login'); ?>
 	</div>
-	</td></tr></table>
+    </td></tr></table>
 <?php $this->endWidget(); ?>
 </div><!-- form -->
 </center>

@@ -8,6 +8,7 @@
  * @property string $username
  * @property string $password
  * @property string $officer_id
+ * @property string $office Office in which the user serve.
  * @property string $create_time
  * @property integer $create_user
  * @property string $update_time
@@ -50,7 +51,7 @@ class Users extends AGDiaryActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('officer_id, create_time, create_user, update_user', 'required'),
+			array('officer_id, create_time, create_user, update_user, office', 'required'),
 			array('username', 'unique'),
 			array('password', 'compare', 'on'=>'insert'),
 			array('create_user, update_user', 'numerical', 'integerOnly'=>true),
@@ -88,6 +89,7 @@ class Users extends AGDiaryActiveRecord
 			'username' => 'Username',
 			'password' => 'Password',
 			'officer_id' => 'Attached with Officer',
+            'office' => 'Office',
 			'create_time' => 'Create Time',
 			'create_user' => 'Create User',
 			'update_time' => 'Update Time',
@@ -110,6 +112,7 @@ class Users extends AGDiaryActiveRecord
 		$criteria->compare('username',$this->username,true);
 		$criteria->compare('password',$this->password,true);
 		$criteria->compare('officer_id',$this->officer_id,true);
+        $criteria->compare('office',$this->office,true);
 		$criteria->compare('create_time',$this->create_time,true);
 		$criteria->compare('create_user',$this->create_user);
 		$criteria->compare('update_time',$this->update_time,true);

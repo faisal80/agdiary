@@ -28,7 +28,7 @@ class DocumentsController extends Controller
 	{
 		return array(
 			array('allow',  // allow authenticated users to perform 'index', 'view', 'create', 'update' and 'admin' actions
-				'actions'=>array('index','view', 'create', 'update', 'admin'),
+				'actions'=>array('index','view', 'create', 'update', 'search', 'admin'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow dadmin user to perform 'delete' actions
@@ -247,6 +247,21 @@ class DocumentsController extends Controller
 		));
 	}
 
+	/**
+	 * Search documents.
+	 */
+	public function actionSearch()
+	{
+		$model=new Documents('search');
+		$model->unsetAttributes();  // clear any default values
+		if(isset($_GET['Documents']))
+			$model->attributes=$_GET['Documents'];
+
+		$this->render('search', array(
+				'model'=>$model,
+		));
+	}
+    
 	/**
 	 * Returns the data model based on the primary key given in the GET variable.
 	 * If the data model is not found, an HTTP exception will be raised.
