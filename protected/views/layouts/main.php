@@ -37,6 +37,10 @@
 				array('label'=>'Documents', 'url'=>array('/documents')),
 				array('label'=>'Diary Report', 'url'=>array('/diaryreport/pendency')),
 				array('label'=>'Search', 'url'=>array('/documents/search')),
+                array('label'=>'Admin', 'url'=>array('#'), 'visible'=>(Yii::app()->user->name === 'admin'), 'items'=>array(
+                    array('label'=>'Users', 'url'=>array('/users')),
+                    array('label'=>'Officers', 'url'=>array('/officers')),
+                )),
 				array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
 				array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest,  'items'=>array(
                     array('label'=>'Change Password', 'url'=>array('/users/changepwd')),

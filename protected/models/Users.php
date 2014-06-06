@@ -52,12 +52,12 @@ class Users extends AGDiaryActiveRecord
 		// will receive user inputs.
 		return array(
 			array('officer_id, create_time, create_user, update_user, office', 'required'),
-			array('username', 'unique'),
+			array('username', 'unique', 'on'=>'update'),
 			array('password', 'compare', 'on'=>'insert'),
 			array('create_user, update_user', 'numerical', 'integerOnly'=>true),
             array('newpasswd', 'required', 'on'=>'changepwd'),
             array('newpasswd_repeat', 'compare', 'compareAttribute'=>'newpasswd', 'on'=>'changepwd'),
-			array('username', 'length', 'max'=>100),
+			array('username', 'length', 'max'=>100, 'on'=>'update'),
 			array('password', 'length', 'max'=>255),
 			array('officer_id', 'length', 'max'=>10),
 			array('password_repeat, update_time', 'safe'),
@@ -137,7 +137,21 @@ class Users extends AGDiaryActiveRecord
 	  	$officersArray = CHtml::listData($_Officers, 'id', 'title');
 	  	return $officersArray;
 	}
-	
+
+	/**
+	 * @return array of valid Office Names
+	 */ 
+	public function getOfficeOptions()
+	{ 
+		//lists all offices 
+		$_criteria = new CDbCriteria;
+		// If full==false then except that officer which is attached to current user
+//		$full ? null : $_criteria->compare('id', "<>" . $this->getOfficerID());
+		$_Offices = Office::model()->findAll($_criteria);
+	  	$officesArray = CHtml::listData($_Offices, 'id', 'name' . ', ' . 'station');
+	  	return $officesArray;	
+    }
+    
 	/**
 	 * get the Officer ID attached with current user
 	 */	

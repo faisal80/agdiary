@@ -28,6 +28,12 @@
 	</div>
 
 	<div class="row">
+		<?php echo $form->labelEx($model,'office'); ?>
+		<?php echo $form->dropDownList($model,'office',$model->getOfficeOptions()); ?>
+		<?php echo $form->error($model,'office'); ?>
+	</div>
+    
+    <div class="row">
 		<?php echo $form->labelEx($model,'officer_id'); ?>
 		<?php echo $form->dropDownList($model,'officer_id',$model->getOfficersOptions(true)); ?>
 		<?php echo $form->error($model,'officer_id'); ?>
@@ -40,3 +46,11 @@
 <?php $this->endWidget(); ?>
 
 </div><!-- form -->
+
+<?php Yii::app()->clientScript->registerScript('uname', 
+    ($model->scenario==='update' ?
+        '$("input[name$=\'username]\']").attr("disabled", "true");'
+    :
+        null
+    )); 
+?>

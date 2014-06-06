@@ -1899,3 +1899,101 @@ Stack trace:
 REQUEST_URI=/agdiary/documents/search
 HTTP_REFERER=http://localhost/agdiary/documents
 ---
+2014/06/06 11:31:11 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.username" is not defined.' in D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\auth\CWebUser.php(141): CComponent->__get('username')
+#1 D:\Faisal\xampp\htdocs\agdiary\protected\views\layouts\main.php(40): CWebUser->__get('username')
+#2 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CBaseController.php(127): require('D:\Faisal\xampp...')
+#3 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\Faisal\xampp...', Array, true)
+#4 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('D:\Faisal\xampp...', Array, true)
+#5 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#6 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#7 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CBaseController.php(207): COutputProcessor->run()
+#8 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#9 D:\Faisal\xampp\htdocs\agdiary\protected\views\layouts\column1.php(5): CBaseController->endContent()
+#10 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CBaseController.php(127): require('D:\Faisal\xampp...')
+#11 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\Faisal\xampp...', Array, true)
+#12 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CController.php(785): CBaseController->renderFile('D:\Faisal\xampp...', Array, true)
+#13 D:\Faisal\xampp\htdocs\agdiary\protected\controllers\SiteController.php(100): CController->render('index', Array)
+#14 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#15 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#17 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#18 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#19 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#20 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#21 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#22 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('')
+#24 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#25 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#26 D:\Faisal\xampp\htdocs\agdiary\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/agdiary/index.php
+HTTP_REFERER=http://localhost/agdiary/site/login
+---
+2014/06/06 14:39:57 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.clientScripts" is not defined.' in D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\base\CModule.php(106): CComponent->__get('clientScripts')
+#1 D:\Faisal\xampp\htdocs\agdiary\protected\views\users\_form.php(50): CModule->__get('clientScripts')
+#2 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CBaseController.php(127): require('D:\Faisal\xampp...')
+#3 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\Faisal\xampp...', Array, true)
+#4 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('D:\Faisal\xampp...', Array, true)
+#5 D:\Faisal\xampp\htdocs\agdiary\protected\views\users\update.php(18): CController->renderPartial('_form', Array)
+#6 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CBaseController.php(127): require('D:\Faisal\xampp...')
+#7 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\Faisal\xampp...', Array, true)
+#8 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('D:\Faisal\xampp...', Array, true)
+#9 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CController.php(783): CController->renderPartial('update', Array, true)
+#10 D:\Faisal\xampp\htdocs\agdiary\protected\controllers\UsersController.php(106): CController->render('update', Array)
+#11 [internal function]: UsersController->actionUpdate('35')
+#12 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#13 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(UsersController), Object(ReflectionMethod), Array)
+#14 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#15 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#16 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#17 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#18 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#19 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#20 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#21 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('update')
+#23 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('users/update')
+#24 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#25 D:\Faisal\xampp\htdocs\agdiary\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/agdiary/users/update/35
+HTTP_REFERER=http://localhost/agdiary/users/35
+---
+2014/06/06 15:43:10 [error] [exception.CException] exception 'CException' with message 'Property "Office.name, station" is not defined.' in D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\db\ar\CActiveRecord.php(144): CComponent->__get('name, station')
+#1 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\helpers\CHtml.php(1809): CActiveRecord->__get('name, station')
+#2 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\helpers\CHtml.php(1773): CHtml::value(Object(Office), 'name, station')
+#3 D:\Faisal\xampp\htdocs\agdiary\protected\models\Users.php(151): CHtml::listData(Array, 'id', 'name, station')
+#4 D:\Faisal\xampp\htdocs\agdiary\protected\views\users\_form.php(32): Users->getOfficeOptions()
+#5 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CBaseController.php(127): require('D:\Faisal\xampp...')
+#6 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\Faisal\xampp...', Array, true)
+#7 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('D:\Faisal\xampp...', Array, true)
+#8 D:\Faisal\xampp\htdocs\agdiary\protected\views\users\create.php(15): CController->renderPartial('_form', Array)
+#9 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CBaseController.php(127): require('D:\Faisal\xampp...')
+#10 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\Faisal\xampp...', Array, true)
+#11 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('D:\Faisal\xampp...', Array, true)
+#12 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CController.php(783): CController->renderPartial('create', Array, true)
+#13 D:\Faisal\xampp\htdocs\agdiary\protected\controllers\UsersController.php(82): CController->render('create', Array)
+#14 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\actions\CInlineAction.php(50): UsersController->actionCreate()
+#15 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#17 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#18 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#19 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#20 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#21 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#22 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('create')
+#24 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('users/create')
+#25 D:\Faisal\xampp\htdocs\yiiframework\1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#26 D:\Faisal\xampp\htdocs\agdiary\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/agdiary/users/create
+HTTP_REFERER=http://localhost/agdiary/users
+---
