@@ -40,6 +40,7 @@
                 array('label'=>'Admin', 'url'=>array('#'), 'visible'=>(Yii::app()->user->name === 'admin'), 'items'=>array(
                     array('label'=>'Users', 'url'=>array('/users')),
                     array('label'=>'Officers', 'url'=>array('/officers')),
+                    array('label'=>'Offices', 'url'=>array('/office')),
                 )),
 				array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
 				array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest,  'items'=>array(

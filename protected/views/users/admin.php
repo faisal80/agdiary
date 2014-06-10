@@ -49,6 +49,12 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 			'header'=>'Attached with',
 			'name'=>'officer.title',
 		),
+        array(
+            'header'=>'Office',
+            'type'=>'raw',
+            'value'=>'$data->office->name . ", " . $data->office->station',
+            'name'=>'office.name',
+        ),
 		array(
 			'class'=>'CButtonColumn',
 		),

@@ -12,5 +12,8 @@
 	<?php echo CHtml::encode($data->officer->title); ?>
 	<br />
 
+	<b><?php echo CHtml::encode($data->getAttributeLabel('office_id')); ?>:</b>
+	<?php echo CHtml::encode($data->office->name .', '. $data->office->station); ?>
+	<br />    
 
 </div>

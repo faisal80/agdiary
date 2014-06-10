@@ -8,7 +8,7 @@
  * @property string $username
  * @property string $password
  * @property string $officer_id
- * @property string $office Office in which the user serve.
+ * @property string $office_id Office in which the user serve.
  * @property string $create_time
  * @property integer $create_user
  * @property string $update_time
@@ -51,7 +51,7 @@ class Users extends AGDiaryActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('officer_id, create_time, create_user, update_user, office', 'required'),
+			array('officer_id, create_time, create_user, update_user, office_id', 'required'),
 			array('username', 'unique', 'on'=>'update'),
 			array('password', 'compare', 'on'=>'insert'),
 			array('create_user, update_user', 'numerical', 'integerOnly'=>true),
@@ -63,7 +63,7 @@ class Users extends AGDiaryActiveRecord
 			array('password_repeat, update_time', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, username, password, officer_id, create_time, create_user, update_time, update_user', 'safe', 'on'=>'search'),
+			array('id, username, password, officer_id, office_id, create_time, create_user, update_time, update_user', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -76,6 +76,7 @@ class Users extends AGDiaryActiveRecord
 		// class name for the relations automatically generated below.
 		return array(
 			'officer' => array(self::BELONGS_TO, 'Officers', 'officer_id'),
+            'office' => array(self::BELONGS_TO, 'Office', 'office_id'),
 		);
 	}
 
@@ -89,7 +90,7 @@ class Users extends AGDiaryActiveRecord
 			'username' => 'Username',
 			'password' => 'Password',
 			'officer_id' => 'Attached with Officer',
-            'office' => 'Office',
+            'office_id' => 'Office',
 			'create_time' => 'Create Time',
 			'create_user' => 'Create User',
 			'update_time' => 'Update Time',
@@ -112,7 +113,7 @@ class Users extends AGDiaryActiveRecord
 		$criteria->compare('username',$this->username,true);
 		$criteria->compare('password',$this->password,true);
 		$criteria->compare('officer_id',$this->officer_id,true);
-        $criteria->compare('office',$this->office,true);
+        $criteria->compare('office_id',$this->office_id,true);
 		$criteria->compare('create_time',$this->create_time,true);
 		$criteria->compare('create_user',$this->create_user);
 		$criteria->compare('update_time',$this->update_time,true);
@@ -144,11 +145,11 @@ class Users extends AGDiaryActiveRecord
 	public function getOfficeOptions()
 	{ 
 		//lists all offices 
-		$_criteria = new CDbCriteria;
+//		$_criteria = new CDbCriteria;
 		// If full==false then except that officer which is attached to current user
 //		$full ? null : $_criteria->compare('id', "<>" . $this->getOfficerID());
-		$_Offices = Office::model()->findAll($_criteria);
-	  	$officesArray = CHtml::listData($_Offices, 'id', 'name' . ', ' . 'station');
+		$_Offices = Office::model()->findAll();
+	  	$officesArray = CHtml::listData($_Offices, 'id', 'station', 'name');
 	  	return $officesArray;	
     }
     

@@ -21,5 +21,13 @@ $this->menu=array(
 		'id',
 		'username',
 		'officer.title',
+        array(
+            'label'=>'Office',
+            'name'=>'office.name',
+        ),
+        array(
+            'label'=>'Station',
+            'name'=>'office.station',
+        ),
 	),
 )); ?>

@@ -28,9 +28,9 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'office'); ?>
-		<?php echo $form->dropDownList($model,'office',$model->getOfficeOptions()); ?>
-		<?php echo $form->error($model,'office'); ?>
+		<?php echo $form->labelEx($model,'office_id'); ?>
+		<?php echo $form->dropDownList($model,'office_id',$model->getOfficeOptions()); ?>
+		<?php echo $form->error($model,'office_id'); ?>
 	</div>
     
     <div class="row">
