@@ -61,6 +61,9 @@ class DocumentImages extends AGDiaryActiveRecord
 		// class name for the relations automatically generated below.
 		return array(
 			'document' => array(self::BELONGS_TO, 'Documents', 'document_id'),
+            'c_user' => array(self::BELONGS_TO, 'Users', 'create_user'),
+            'u_user' => array(self::BELONGS_TO, 'Users', 'update_user'),
+            
 		);
 	}
 

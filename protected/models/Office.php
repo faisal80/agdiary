@@ -60,6 +60,9 @@ class Office extends AGDiaryActiveRecord
 		return array(
             'officers'=>array(self::HAS_MANY, 'Officers', 'office_id'),
             'users'=>array(self::HAS_MANY, 'Users', 'office_id'),
+            'c_user' => array(self::BELONGS_TO, 'Users', 'create_user'),
+            'u_user' => array(self::BELONGS_TO, 'Users', 'update_user'),
+
 		);
 	}
 

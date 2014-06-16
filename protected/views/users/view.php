@@ -29,5 +29,15 @@ $this->menu=array(
             'label'=>'Station',
             'name'=>'office.station',
         ),
+        'create_time',
+        'create_user'=>array(
+            'label'=>'Create User',
+            'name'=>'c_user.username',
+        ),
+        'update_time',
+        'update_user'=>array(
+            'label'=>'Update User',
+            'name'=>'u_user.username',
+        ),
 	),
 )); ?>

@@ -69,6 +69,9 @@ class Marked extends AGDiaryActiveRecord
 			'document' => array(self::BELONGS_TO, 'Documents', 'document_id'),
 			'officer' => array(self::BELONGS_TO, 'Officers', 'officer_id'),
 			'markedBy' => array(self::BELONGS_TO, 'Officers', 'marked_by'),
+            'c_user' => array(self::BELONGS_TO, 'Users', 'create_user'),
+            'u_user' => array(self::BELONGS_TO, 'Users', 'update_user'),
+        
 		);
 	}
 

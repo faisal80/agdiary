@@ -60,6 +60,9 @@ class Comments extends CActiveRecord
 		return array(
 			'by0' => array(self::BELONGS_TO, 'Officers', 'by'),
 			'document' => array(self::BELONGS_TO, 'Documents', 'document_id'),
+            'c_user' => array(self::BELONGS_TO, 'Users', 'create_user'),
+            'u_user' => array(self::BELONGS_TO, 'Users', 'update_user'),
+            
 		);
 	}
 

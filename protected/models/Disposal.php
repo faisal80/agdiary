@@ -67,6 +67,9 @@ class Disposal extends AGDiaryActiveRecord
 		return array(
 			'document' => array(self::BELONGS_TO, 'Documents', 'document_id'),
 			'officer' => array(self::BELONGS_TO, 'Officers', 'officer_id'),
+            'c_user' => array(self::BELONGS_TO, 'Users', 'create_user'),
+            'u_user' => array(self::BELONGS_TO, 'Users', 'update_user'),
+            
 		);
 	}
 

@@ -55,6 +55,17 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
             'value'=>'$data->office->name . ", " . $data->office->station',
             'name'=>'office.name',
         ),
+        'create_time',
+        'create_user'=>array(
+            'header'=>'Create User',
+            'name'=>'c_user.username',
+        ),
+        'update_time',
+        'update_user'=>array(
+            'header'=>'Update User',
+            'name'=>'u_user.username',
+        ),
+        
 		array(
 			'class'=>'CButtonColumn',
 		),

@@ -52,12 +52,12 @@ class Users extends AGDiaryActiveRecord
 		// will receive user inputs.
 		return array(
 			array('officer_id, create_time, create_user, update_user, office_id', 'required'),
-			array('username', 'unique', 'on'=>'update'),
+			array('username', 'unique', 'on'=>'insert'),
 			array('password', 'compare', 'on'=>'insert'),
 			array('create_user, update_user', 'numerical', 'integerOnly'=>true),
             array('newpasswd', 'required', 'on'=>'changepwd'),
             array('newpasswd_repeat', 'compare', 'compareAttribute'=>'newpasswd', 'on'=>'changepwd'),
-			array('username', 'length', 'max'=>100, 'on'=>'update'),
+			//array('username', 'length', 'max'=>100, 'on'=>'update'),
 			array('password', 'length', 'max'=>255),
 			array('officer_id', 'length', 'max'=>10),
 			array('password_repeat, update_time', 'safe'),
@@ -77,6 +77,8 @@ class Users extends AGDiaryActiveRecord
 		return array(
 			'officer' => array(self::BELONGS_TO, 'Officers', 'officer_id'),
             'office' => array(self::BELONGS_TO, 'Office', 'office_id'),
+            'c_user' => array(self::BELONGS_TO, 'Users', 'create_user'),
+            'u_user' => array(self::BELONGS_TO, 'Users', 'update_user'),
 		);
 	}
 

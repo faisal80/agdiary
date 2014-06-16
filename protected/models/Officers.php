@@ -68,6 +68,9 @@ class Officers extends AGDiaryActiveRecord
 			'markeds' => array(self::HAS_MANY, 'Marked', 'officer_id'),
 			'markeds1' => array(self::HAS_MANY, 'Marked', 'marked_by'),
 			'users' => array(self::HAS_MANY, 'Users', 'officer_id'),
+            'c_user' => array(self::BELONGS_TO, 'Users', 'create_user'),
+            'u_user' => array(self::BELONGS_TO, 'Users', 'update_user'),
+            
 		);
 	}
 

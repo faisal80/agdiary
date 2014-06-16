@@ -77,6 +77,9 @@ class Documents extends AGDiaryActiveRecord
 			'officers' => array(self::MANY_MANY, 'Officers', 'tbl_marked(document_id, officer_id)'),
 			'comment' => array(self::HAS_ONE, 'Comments', 'document_id'),
 			'images' => array(self::HAS_MANY, 'DocumentImages', 'document_id'),
+            'c_user' => array(self::BELONGS_TO, 'Users', 'create_user'),
+            'u_user' => array(self::BELONGS_TO, 'Users', 'update_user'),
+            
 		);
 	}
 

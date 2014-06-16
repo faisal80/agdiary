@@ -37,7 +37,8 @@ class UserIdentity extends CUserIdentity
 				{
 					$lastLogin = strtotime($user->last_login_time);
 				}*/
-				$this->setState('officerID', $user->officer_id); 
+				$this->setState('officerID', $user->officer_id);
+                $this->setState('officeID', $user->office_id);
 				$this->errorCode=self::ERROR_NONE;
 			}
 		}
