@@ -4054,3 +4054,32 @@ in D:\Faisal\xampp\htdocs\agdiary\index.php (13)
 2014/06/16 16:20:42 [warning] [application] Failed to set unsafe attribute "username" of "Users".
 in D:\Faisal\xampp\htdocs\agdiary\protected\controllers\UsersController.php (75)
 in D:\Faisal\xampp\htdocs\agdiary\index.php (13)
+2014/06/17 12:50:33 [error] [exception.CException] exception 'CException' with message 'Alias "pension.Pension" is invalid. Make sure it points to an existing PHP file and the file is readable.' in D:\Faisal\xampp\htdocs\yiiframework\1.1.14\framework\YiiBase.php:322
+Stack trace:
+#0 D:\Faisal\xampp\htdocs\yiiframework\1.1.14\framework\gii\generators\crud\CrudCode.php(59): YiiBase::import('pension.Pension', true)
+#1 D:\Faisal\xampp\htdocs\yiiframework\1.1.14\framework\validators\CInlineValidator.php(42): CrudCode->validateModel('model', Array)
+#2 D:\Faisal\xampp\htdocs\yiiframework\1.1.14\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(CrudCode), 'model')
+#3 D:\Faisal\xampp\htdocs\yiiframework\1.1.14\framework\base\CModel.php(159): CValidator->validate(Object(CrudCode), NULL)
+#4 D:\Faisal\xampp\htdocs\yiiframework\1.1.14\framework\gii\CCodeGenerator.php(159): CModel->validate()
+#5 D:\Faisal\xampp\htdocs\yiiframework\1.1.14\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#6 D:\Faisal\xampp\htdocs\yiiframework\1.1.14\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#7 D:\Faisal\xampp\htdocs\yiiframework\1.1.14\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 D:\Faisal\xampp\htdocs\yiiframework\1.1.14\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 D:\Faisal\xampp\htdocs\yiiframework\1.1.14\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\Faisal\xampp\htdocs\yiiframework\1.1.14\framework\web\CWebApplication.php(282): CController->run('index')
+#11 D:\Faisal\xampp\htdocs\yiiframework\1.1.14\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/crud/index')
+#12 D:\Faisal\xampp\htdocs\yiiframework\1.1.14\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\Faisal\xampp\htdocs\agdiary\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/agdiary/gii/crud/index
+HTTP_REFERER=http://localhost/agdiary/gii/crud/index
+---
+2014/06/17 16:35:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "pension/create".' in D:\Faisal\xampp\htdocs\yiiframework\1.1.14\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Faisal\xampp\htdocs\yiiframework\1.1.14\framework\web\CWebApplication.php(141): CWebApplication->runController('pension/create')
+#1 D:\Faisal\xampp\htdocs\yiiframework\1.1.14\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Faisal\xampp\htdocs\agdiary\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/agdiary/pension/create
+HTTP_REFERER=http://localhost/agdiary/pension
+---

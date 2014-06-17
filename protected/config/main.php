@@ -21,6 +21,7 @@ return array(
 	),
 
 	'modules'=>array(
+        'pension',
 		// uncomment the following to enable the Gii tool
 		
 		'gii'=>array(
