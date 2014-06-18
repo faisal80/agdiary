@@ -66,10 +66,13 @@ class DefaultController extends Controller
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
-
+        $model->office_id = Yii::app()->user->getState('office_id');
+        
 		if(isset($_POST['Pension']))
 		{
 			$model->attributes=$_POST['Pension'];
+            $model->receipt_date=new CDbExpression('NOW()');
+
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}

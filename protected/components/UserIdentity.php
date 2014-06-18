@@ -8,6 +8,7 @@ class UserIdentity extends CUserIdentity
 {
 	private $_id;
 	private $_officer_id;
+    private $_office_id;
 	/**
 	 * Authenticates a user using the Users data model.
 	 * @return boolean whether authentication succeeds.
@@ -54,4 +55,9 @@ class UserIdentity extends CUserIdentity
 	{
 		return $this->_officer_id;
 	}
+
+	public function getOfficeID()
+	{
+		return $this->_office_id;
+	}    
 }

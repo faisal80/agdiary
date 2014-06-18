@@ -13,7 +13,7 @@
  * @property string $description
  * @property string $p_name
  * @property string $p_type
- * @property integer $office_id
+ * @property string $office_id
  * @property string $create_time
  * @property integer $create_user
  * @property string $update_time
@@ -145,16 +145,6 @@ class Pension extends AGDiaryActiveRecord
 	{
 		return parent::model($className);
 	}
-    
-    protected function beforeValidate() {
-        if ($this->isNewRecord)
-        {
-            $this->receipt_date=new CDbExpression('NOW()');
-            $this->office_id = Yii::app()->user->getState('officer_id');
-        }
-        
-        parent::beforeValidate();
-    }
     
     protected function afterFind ()
     {
