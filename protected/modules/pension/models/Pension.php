@@ -21,23 +21,13 @@
  */
 class Pension extends AGDiaryActiveRecord
 {
-    private $_pension_types = array(
-        1 => 'Retiring',
-        2 => 'Superannuation',
-        3 => 'Invalid',
-        4 => 'Family',
-        5 => 'Compensation',
-        6 => 'Anticpatory',
-        7 => 'Gratuity',
-        8 => 'Extraordinary',
-    );
-    
+  
 	/**
 	 * @return string the associated database table name
 	 */
 	public function tableName()
 	{
-		return '{{pension}}';
+		return '{{mod_pension}}';
 	}
 
 	/**
@@ -68,6 +58,7 @@ class Pension extends AGDiaryActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+            'pension_type'=>array(self::BELONGS_TO, 'PensionTypes', 'p_type'),
             'office'=> array(self::BELONGS_TO, 'Office', 'office_id'),
             'c_user'=> array(self::BELONGS_TO, 'Users', 'create_user'),
             'u_user'=> array(self::BELONGS_TO, 'Users', 'update_user'),
@@ -171,6 +162,6 @@ class Pension extends AGDiaryActiveRecord
     
     public static function getPensionTypeOptions()
     {
-        return Pension::model()->_pension_types;
+        return CHtml::listData(PensionTypes::model()->findAll(), 'id', 'type');
     }
 }

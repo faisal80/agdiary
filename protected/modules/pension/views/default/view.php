@@ -11,6 +11,7 @@ $this->menu=array(
 	array('label'=>'List Pension', 'url'=>array('index')),
 	array('label'=>'Create Pension', 'url'=>array('create')),
 	array('label'=>'Update Pension', 'url'=>array('update', 'id'=>$model->id)),
+    array('label'=>'Disposal', 'url'=>array('disposal/create', 'p'=>$model->id)),
 	array('label'=>'Delete Pension', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id),'confirm'=>'Are you sure you want to delete this item?')),
 	array('label'=>'Manage Pension', 'url'=>array('admin')),
 );
@@ -29,11 +30,30 @@ $this->menu=array(
 		'received_from',
 		'description',
 		'p_name',
-		'p_type',
-		'office_id',
-		'create_time',
-		'create_user',
-		'update_time',
-		'update_user',
+		'pension_type.type',
+		'office'=>array(
+            'label'=>'Office',
+            'name'=>'office.name',
+        ),
+        'station'=>array(
+            'label'=>'Station',
+            'name'=>'office.station',
+        ),
+		'create_time'=>array(
+            'name'=>'create_time',
+            'visible'=>  Yii::app()->user->name == 'admin',
+        ),
+		'create_user'=>array(
+            'name'=>'c_user.username',
+            'visible'=>  Yii::app()->user->name == 'admin',            
+        ),
+		'update_time'=>array(
+            'name'=>'update_time',
+            'visible'=>  Yii::app()->user->name == 'admin',
+        ),
+		'update_user'=>array(
+            'name'=>'u_user.username',
+            'visible'=>  Yii::app()->user->name == 'admin',            
+        ),
 	),
 )); ?>

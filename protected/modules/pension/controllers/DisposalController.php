@@ -1,6 +1,6 @@
 <?php
 
-class DefaultController extends Controller
+class DisposalController extends Controller
 {
 	/**
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
@@ -51,40 +51,33 @@ class DefaultController extends Controller
 	 */
 	public function actionView($id)
 	{
-        $_data = $this->loadModel($id);
-//        if($_data->office_id == Users::model()->getOfficeID())
-//        {
-            $this->render('view',array(
-                'model'=>$_data,
-            ));
-//        } else {
-//            throw new CHttpException('403', 'You are not authorized to view this document');
-//        }
-        
+		$this->render('view',array(
+			'model'=>$this->loadModel($id),
+		));
 	}
 
 	/**
 	 * Creates a new model.
 	 * If creation is successful, the browser will be redirected to the 'view' page.
 	 */
-	public function actionCreate()
+	public function actionCreate($p)
 	{
-		$model=new Pension;
+		$model=new PensionDisposal;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
-        
-		if(isset($_POST['Pension']))
+
+		if(isset($_POST['PensionDisposal']))
 		{
-			$model->attributes=$_POST['Pension'];
-            $model->receipt_date=new CDbExpression('NOW()');
-            $model->office_id = Users::model()->getOfficeID();
+			$model->attributes=$_POST['PensionDisposal'];
+            $model->p_id = $p;
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
 
 		$this->render('create',array(
 			'model'=>$model,
+            'p_id'=>$p,
 		));
 	}
 
@@ -100,9 +93,9 @@ class DefaultController extends Controller
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Pension']))
+		if(isset($_POST['PensionDisposal']))
 		{
-			$model->attributes=$_POST['Pension'];
+			$model->attributes=$_POST['PensionDisposal'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
@@ -131,12 +124,7 @@ class DefaultController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('Pension'/*, array(
-            'criteria'=>array(
-                'condition'=>'office_id='.Users::model()->getOfficeID(),
-                ),
-            )*/
-        );
+		$dataProvider=new CActiveDataProvider('PensionDisposal');
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
 		));
@@ -147,10 +135,10 @@ class DefaultController extends Controller
 	 */
 	public function actionAdmin()
 	{
-		$model=new Pension('search');
+		$model=new PensionDisposal('search');
 		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['Pension']))
-			$model->attributes=$_GET['Pension'];
+		if(isset($_GET['PensionDisposal']))
+			$model->attributes=$_GET['PensionDisposal'];
 
 		$this->render('admin',array(
 			'model'=>$model,
@@ -161,12 +149,12 @@ class DefaultController extends Controller
 	 * Returns the data model based on the primary key given in the GET variable.
 	 * If the data model is not found, an HTTP exception will be raised.
 	 * @param integer $id the ID of the model to be loaded
-	 * @return Pension the loaded model
+	 * @return PensionDisposal the loaded model
 	 * @throws CHttpException
 	 */
 	public function loadModel($id)
 	{
-		$model=Pension::model()->findByPk($id);
+		$model=PensionDisposal::model()->findByPk($id);
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
 		return $model;
@@ -174,14 +162,15 @@ class DefaultController extends Controller
 
 	/**
 	 * Performs the AJAX validation.
-	 * @param Pension $model the model to be validated
+	 * @param PensionDisposal $model the model to be validated
 	 */
 	protected function performAjaxValidation($model)
 	{
-		if(isset($_POST['ajax']) && $_POST['ajax']==='pension-form')
+		if(isset($_POST['ajax']) && $_POST['ajax']==='pension-disposal-form')
 		{
 			echo CActiveForm::validate($model);
 			Yii::app()->end();
 		}
 	}
+
 }

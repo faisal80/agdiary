@@ -51,16 +51,30 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 		'ref_number',
 		'issue_date',
 		'received_from',
-		/*
 		'description',
 		'p_name',
-		'p_type',
-		'office_id',
-		'create_time',
-		'create_user',
-		'update_time',
-		'update_user',
-		*/
+		'pension_type.type',
+		'office'=>array(
+            'header'=>'Office',
+            'type'=>'raw',
+            'value'=>'$data->office->name .", ". $data->office->station',
+        ),
+		'create_time'=>array(
+            'name'=>'create_time',
+            'visible'=>  Yii::app()->user->name == 'admin',
+        ),
+		'create_user'=>array(
+            'name'=>'c_user.username',
+            'visible'=>  Yii::app()->user->name == 'admin',
+        ),
+		'update_time'=>array(
+            'name'=>'update_time',
+            'visible'=>  Yii::app()->user->name == 'admin',            
+        ),
+		'update_user'=>array(
+            'name'=>'u_user.username',
+            'visible'=>  Yii::app()->user->name == 'admin',            
+        ),
 		array(
 			'class'=>'CButtonColumn',
 		),

@@ -164,6 +164,16 @@ class Users extends AGDiaryActiveRecord
 		$_user = Users::model()->findByPk(Yii::app()->user->id);
 		return (int) $_user->officer_id;
 	}
+    
+	/**
+	 * get the Office ID attached with current user
+	 */	
+	public static function getOfficeID()
+	{
+		//find the current logged in user in the tbl_users table
+		$_user = Users::model()->findByPk(Yii::app()->user->id);
+		return (int) $_user->office_id;
+	}    
 
 	/**
 	 * get the Officer's Level attached with current user

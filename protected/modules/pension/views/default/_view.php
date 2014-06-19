@@ -33,25 +33,25 @@
 	<?php echo CHtml::encode($data->description); ?>
 	<br />
 
-	<?php /*
 	<b><?php echo CHtml::encode($data->getAttributeLabel('p_name')); ?>:</b>
 	<?php echo CHtml::encode($data->p_name); ?>
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('p_type')); ?>:</b>
-	<?php echo CHtml::encode($data->p_type); ?>
+	<?php echo CHtml::encode($data->pension_type->type); ?>
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('office_id')); ?>:</b>
-	<?php echo CHtml::encode($data->office_id); ?>
+	<?php echo CHtml::encode($data->office->name) .', '. CHtml::encode($data->office->station); ?>
 	<br />
 
+    <?php if(Yii::app()->user->name == 'admin') { ?>
 	<b><?php echo CHtml::encode($data->getAttributeLabel('create_time')); ?>:</b>
 	<?php echo CHtml::encode($data->create_time); ?>
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('create_user')); ?>:</b>
-	<?php echo CHtml::encode($data->create_user); ?>
+	<?php echo CHtml::encode($data->c_user->username); ?>
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('update_time')); ?>:</b>
@@ -59,9 +59,9 @@
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('update_user')); ?>:</b>
-	<?php echo CHtml::encode($data->update_user); ?>
+	<?php echo CHtml::encode($data->u_user->username); ?>
 	<br />
-
-	*/ ?>
+    
+    <?php }; ?>
 
 </div>
