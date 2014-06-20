@@ -58,7 +58,6 @@ $this->menu=array(
 	),
 )); ?>
 
-
 <?php $this->widget('zii.widgets.grid.CGridView', array(
 	'id'=>'pension-disposal-grid',
 	'dataProvider'=>$disposal,

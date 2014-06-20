@@ -52,7 +52,16 @@ class DefaultController extends Controller
 	public function actionView($id)
 	{
         $_data = $this->loadModel($id);
-        $_disposal = PensionDisposal::model()->findAll('p_id='.$id);
+    	// Query the rows from tbl_disposal relating to this document
+    	$_disposal=new CActiveDataProvider('PensionDisposal', array(
+      		'criteria'=>array(
+        		'condition'=>'id=:PID',
+        		'params'=>array(':PID'=>$_data->id),
+      		),
+      		'pagination'=>array(
+        		'pageSize'=>10,
+      		),
+    	));
 //        if($_data->office_id == Users::model()->getOfficeID())
 //        {
             $this->render('view',array(
