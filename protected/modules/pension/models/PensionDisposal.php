@@ -49,6 +49,9 @@ class PensionDisposal extends AGDiaryActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+            'pension'=>array(self::BELONGS_TO, 'Pension', 'p_id'),
+            'c_user'=>array(self::BELONGS_TO, 'Users', 'create_user'),
+            'u_user'=>array(self::BELONGS_TO, 'Users', 'update_user'),
 		);
 	}
 

@@ -52,10 +52,12 @@ class DefaultController extends Controller
 	public function actionView($id)
 	{
         $_data = $this->loadModel($id);
+        $_disposal = PensionDisposal::model()->findAll('p_id='.$id);
 //        if($_data->office_id == Users::model()->getOfficeID())
 //        {
             $this->render('view',array(
                 'model'=>$_data,
+                'disposal'=>$_disposal,
             ));
 //        } else {
 //            throw new CHttpException('403', 'You are not authorized to view this document');

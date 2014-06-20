@@ -57,3 +57,34 @@ $this->menu=array(
         ),
 	),
 )); ?>
+
+
+<?php $this->widget('zii.widgets.grid.CGridView', array(
+	'id'=>'pension-disposal-grid',
+	'dataProvider'=>$disposal,
+	'columns'=>array(
+		'id',
+		'disposal_date',
+		'disposal',
+		'finalized:boolean',
+		'create_time'=>array(
+            'name'=>'create_time',
+            'visible'=>  Yii::app()->user->name == 'admin',
+        ),
+		'create_user'=>array(
+            'name'=>'c_user.username',
+            'visible'=>  Yii::app()->user->name == 'admin',
+        ),
+		'update_time'=>array(
+            'name'=>'update_time',
+            'visible'=>  Yii::app()->user->name == 'admin',
+        ),
+		'update_user'=>array(
+            'name'=>'c_user.username',
+            'visible'=>  Yii::app()->user->name == 'admin',
+        ),
+		array(
+			'class'=>'CButtonColumn',
+		),
+	),
+)); ?>
