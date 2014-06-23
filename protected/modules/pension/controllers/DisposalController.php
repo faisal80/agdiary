@@ -97,7 +97,7 @@ class DisposalController extends Controller
 		{
 			$model->attributes=$_POST['PensionDisposal'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
+				$this->redirect(array('default/view','id'=>$model->p_id));
 		}
 
 		$this->render('update',array(

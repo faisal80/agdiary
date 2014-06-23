@@ -3,13 +3,13 @@
 /* @var $model Pension */
 
 $this->breadcrumbs=array(
-	'Pensions'=>array('index'),
+	'Pension Cases'=>array('index'),
 	'Manage',
 );
 
 $this->menu=array(
-	array('label'=>'List Pension', 'url'=>array('index')),
-	array('label'=>'Create Pension', 'url'=>array('create')),
+	array('label'=>'List Pension Cases', 'url'=>array('index')),
+	array('label'=>'Enter New Pension Case', 'url'=>array('create')),
 );
 
 Yii::app()->clientScript->registerScript('search', "
@@ -26,7 +26,7 @@ $('.search-form form').submit(function(){
 ");
 ?>
 
-<h1>Manage Pensions</h1>
+<h1>Manage Pension Cases</h1>
 
 <p>
 You may optionally enter a comparison operator (<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&gt;=</b>, <b>&lt;&gt;</b>

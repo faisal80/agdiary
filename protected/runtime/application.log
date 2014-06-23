@@ -5012,3 +5012,21 @@ REQUEST_URI=/agdiary/pension/default/index
 in E:\xampp\htdocs\agdiary\protected\modules\pension\views\default\_view.php (54)
 in E:\xampp\htdocs\agdiary\protected\modules\pension\views\default\index.php (20)
 in E:\xampp\htdocs\agdiary\protected\modules\pension\controllers\DefaultController.php (144)
+2014/06/21 13:57:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "pension/pension/default/view/id/1".' in D:\Faisal\xampp\htdocs\yiiframework\1.1.14\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Faisal\xampp\htdocs\yiiframework\1.1.14\framework\web\CWebApplication.php(141): CWebApplication->runController('pension/pension...')
+#1 D:\Faisal\xampp\htdocs\yiiframework\1.1.14\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Faisal\xampp\htdocs\agdiary\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/agdiary/pension/pension/default/view/id/1
+HTTP_REFERER=http://localhost/agdiary/pension/disposal/update/id/1
+---
+2014/06/21 13:57:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "pension/pension/default/view/id/1".' in D:\Faisal\xampp\htdocs\yiiframework\1.1.14\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Faisal\xampp\htdocs\yiiframework\1.1.14\framework\web\CWebApplication.php(141): CWebApplication->runController('pension/pension...')
+#1 D:\Faisal\xampp\htdocs\yiiframework\1.1.14\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Faisal\xampp\htdocs\agdiary\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/agdiary/pension/pension/default/view/id/1
+HTTP_REFERER=http://localhost/agdiary/pension/disposal/update/id/1
+---

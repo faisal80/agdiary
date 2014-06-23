@@ -38,7 +38,7 @@
 				array('label'=>'Diary Report', 'url'=>array('/diaryreport/pendency')),
 				array('label'=>'Search', 'url'=>array('/documents/search')),
                 array('label'=>'Pension', 'url'=>array('/pension'), 'items'=>array(
-                    array('label'=>'Create', 'url'=>array('/pension/default/create')),
+                    array('label'=>'New Pension Case', 'url'=>array('/pension/default/create')),
                 )),
                 array('label'=>'Admin', 'url'=>array('#'), 'visible'=>(Yii::app()->user->name === 'admin'), 'items'=>array(
                     array('label'=>'Users', 'url'=>array('/users')),

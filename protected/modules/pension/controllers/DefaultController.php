@@ -53,6 +53,7 @@ class DefaultController extends Controller
 	{
         $_data = $this->loadModel($id);
     	// Query the rows from tbl_disposal relating to this document
+        $count = $_data->count();
     	$_disposal=new CActiveDataProvider('PensionDisposal', array(
       		'criteria'=>array(
         		'condition'=>'id=:PID',
@@ -67,6 +68,7 @@ class DefaultController extends Controller
             $this->render('view',array(
                 'model'=>$_data,
                 'disposal'=>$_disposal,
+                'count'=>$count,
             ));
 //        } else {
 //            throw new CHttpException('403', 'You are not authorized to view this document');
@@ -142,15 +144,16 @@ class DefaultController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('Pension'/*, array(
-            'criteria'=>array(
-                'condition'=>'office_id='.Users::model()->getOfficeID(),
-                ),
-            )*/
-        );
-		$this->render('index',array(
-			'dataProvider'=>$dataProvider,
-		));
+        $this->actionAdmin();
+//		$dataProvider=new CActiveDataProvider('Pension'/*, array(
+//            'criteria'=>array(
+//                'condition'=>'office_id='.Users::model()->getOfficeID(),
+//                ),
+//            )*/
+//        );
+//		$this->render('index',array(
+//			'dataProvider'=>$dataProvider,
+//		));
 	}
 
 	/**

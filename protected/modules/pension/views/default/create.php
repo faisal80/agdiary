@@ -3,16 +3,16 @@
 /* @var $model Pension */
 
 $this->breadcrumbs=array(
-	'Pensions'=>array('index'),
+	'Pension Cases'=>array('index'),
 	'Create',
 );
 
 $this->menu=array(
-	array('label'=>'List Pension', 'url'=>array('index')),
-	array('label'=>'Manage Pension', 'url'=>array('admin')),
+	array('label'=>'List Pension Cases', 'url'=>array('index')),
+	array('label'=>'Manage Pension Cases', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create Pension</h1>
+<h1>Enter New Pension Case</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

@@ -3,21 +3,23 @@
 /* @var $model Pension */
 
 $this->breadcrumbs=array(
-	'Pensions'=>array('index'),
+	'Pension Cases'=>array('index'),
 	$model->id,
 );
 
 $this->menu=array(
-	array('label'=>'List Pension', 'url'=>array('index')),
-	array('label'=>'Create Pension', 'url'=>array('create')),
-	array('label'=>'Update Pension', 'url'=>array('update', 'id'=>$model->id)),
-    array('label'=>'Disposal', 'url'=>array('disposal/create', 'p'=>$model->id)),
-	array('label'=>'Delete Pension', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Manage Pension', 'url'=>array('admin')),
+	array('label'=>'List Pension Cases', 'url'=>array('index')),
+	array('label'=>'Enter New Pension Case', 'url'=>array('create')),
+	array('label'=>'Update Pension Case', 'url'=>array('update', 'id'=>$model->id)),
+    array('label'=>'Enter Disposal', 'url'=>array('disposal/create', 'p'=>$model->id)),
+	array('label'=>'Delete Pension Case', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id),'confirm'=>'Are you sure you want to delete this item?')),
+	array('label'=>'Manage Pension Cases', 'url'=>array('admin')),
 );
 ?>
 
-<h1>View Pension #<?php echo $model->id; ?></h1>
+<h1>Pension Case #<?php echo $model->id; ?></h1>
+
+<?php MyFunctions::Navigation($model, $count, $this);  ?>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,
@@ -83,7 +85,10 @@ $this->menu=array(
             'visible'=>  Yii::app()->user->name == 'admin',
         ),
 		array(
-			'class'=>'CButtonColumn',
-		),
+            'class'=>'CButtonColumn',
+            'template'=>'{update} {delete}',
+            //'viewButtonUrl'=> 'Yii::app()->createUrl("disposal/view", array("id"=>$data->id))',
+            'updateButtonUrl'=> 'Yii::app()->createUrl("pension/disposal/update", array("id"=>$data->id))',
+            'deleteButtonUrl'=> 'Yii::app()->createUrl("pension/disposal/delete", array("id"=>$data->id))',		),
 	),
 )); ?>
