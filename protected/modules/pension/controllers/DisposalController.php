@@ -65,14 +65,14 @@ class DisposalController extends Controller
 		$model=new PensionDisposal;
 
 		// Uncomment the following line if AJAX validation is needed
-		// $this->performAjaxValidation($model);
+		$this->performAjaxValidation($model);
 
 		if(isset($_POST['PensionDisposal']))
 		{
 			$model->attributes=$_POST['PensionDisposal'];
             $model->p_id = $p;
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
+				$this->redirect(array('default/view','id'=>$model->p_id));
 		}
 
 		$this->render('create',array(

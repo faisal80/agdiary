@@ -56,7 +56,7 @@ class DefaultController extends Controller
         $count = $_data->count();
     	$_disposal=new CActiveDataProvider('PensionDisposal', array(
       		'criteria'=>array(
-        		'condition'=>'id=:PID',
+        		'condition'=>'p_id=:PID',
         		'params'=>array(':PID'=>$_data->id),
       		),
       		'pagination'=>array(

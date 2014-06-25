@@ -34,6 +34,7 @@ class PensionDisposal extends AGDiaryActiveRecord
 		return array(
 			array('create_user, update_user, p_id', 'required'),
 			array('finalized, create_user, update_user', 'numerical', 'integerOnly'=>true),
+            array('finazlied', 'isFinalized'),
 			array('disposal_date, disposal, create_time, update_time', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
@@ -41,6 +42,26 @@ class PensionDisposal extends AGDiaryActiveRecord
 		);
 	}
 
+    /**
+    * @param string $attribute the name of the attribute to be validated
+    * @param array $params options specified in the validation rule
+    */
+    public function isFinalized($attribute,$params) 
+    {
+        $dd = PensionDisposal::model()->findAll('p_id='. $this->p_id);
+        if (!empty($dd) && $this->finalized)
+        {
+            foreach ($dd as $rr )
+            {
+                if ($rr->finalized && $this->finalized)
+                {
+                    $this->addError('finalized', 'The case has already been marked as finalized.');
+                    return;
+                }
+            }
+        }
+    }
+    
 	/**
 	 * @return array relational rules.
 	 */

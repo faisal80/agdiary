@@ -4,13 +4,14 @@
 /* @var $p_id Pension case ID */
 
 $this->breadcrumbs=array(
-	'Pension Disposals'=>array('index'),
+	'Pension Cases'=>array('default/index'),
 	'Create',
 );
 
 $this->menu=array(
-	array('label'=>'List PensionDisposal', 'url'=>array('index')),
-	array('label'=>'Manage PensionDisposal', 'url'=>array('admin')),
+	array('label'=>'List Pension Cases', 'url'=>array('default/index')),
+	array('label'=>'Manage Pension Cases', 'url'=>array('default/admin')),
+    array('label'=>'View Pension Case', 'url'=>array('default/view', 'id'=>$p_id)),
 );
 ?>
 
