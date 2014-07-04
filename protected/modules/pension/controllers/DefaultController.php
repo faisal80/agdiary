@@ -28,9 +28,14 @@ class DefaultController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view'),
-				'users'=>array('*'),
+				'actions'=>array('index'),
+				'users'=>array('@'),
 			),
+            array('allow',
+                'actions'=>array('view'),
+                'users'=>array('@'),
+                'expression'=>array('DefaultController', 'allowOnlyOwner'),
+            ),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
 				'actions'=>array('create','update'),
 				'users'=>array('@'),
@@ -45,6 +50,32 @@ class DefaultController extends Controller
 		);
 	}
 
+    public function canView($id)
+    {
+        $_model = $this->loadModel($id);
+        if($_model->office_id === $user->getOfficeID())
+            return true;
+        
+        return false;
+    }
+    
+    /**
+     * Allow only the owner to do the action
+     * @return boolean whether or not the user is the owner
+     */
+    public static function allowOnlyOwner()
+    {
+        if(Yii::app()->user->name === 'admin')
+        {
+            return true;
+        }
+        else
+        {
+            $_model = Pension::model()->findByPk($_GET["id"]); 
+            return $_model->office_id == Users::getOfficeID();
+        }
+    }
+    
 	/**
 	 * Displays a particular model.
 	 * @param integer $id the ID of the model to be displayed
