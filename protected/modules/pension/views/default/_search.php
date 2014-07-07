@@ -61,6 +61,7 @@
 		<?php echo $form->textField($model,'office_id'); ?>
 	</div>
 
+    <?php if (Yii::app()->user->name =='admin') { ?>
 	<div class="row">
 		<?php echo $form->label($model,'create_time'); ?>
 		<?php echo $form->textField($model,'create_time'); ?>
@@ -80,6 +81,7 @@
 		<?php echo $form->label($model,'update_user'); ?>
 		<?php echo $form->textField($model,'update_user'); ?>
 	</div>
+    <?php } ?>
 
 	<div class="row buttons">
 		<?php echo CHtml::submitButton('Search'); ?>

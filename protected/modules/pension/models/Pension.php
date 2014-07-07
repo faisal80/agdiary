@@ -115,7 +115,11 @@ class Pension extends AGDiaryActiveRecord
 		$criteria->compare('description',$this->description,true);
 		$criteria->compare('p_name',$this->p_name,true);
 		$criteria->compare('p_type',$this->p_type,true);
-		$criteria->compare('office_id',$this->office_id);
+        if(Yii::app()->user->name == 'admin'){
+            $criteria->compare('office_id',$this->office_id);
+        } else {
+            $criteria->compare('office_id',  Users::getOfficeID());
+        }
 		$criteria->compare('create_time',$this->create_time,true);
 		$criteria->compare('create_user',$this->create_user);
 		$criteria->compare('update_time',$this->update_time,true);

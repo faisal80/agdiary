@@ -7,6 +7,7 @@ class DefaultController extends Controller
 	 * using two-column layout. See 'protected/views/layouts/column2.php'.
 	 */
 	public $layout='//layouts/column2';
+    public $defaultAction = 'admin';
 
 	/**
 	 * @return array action filters
@@ -34,14 +35,14 @@ class DefaultController extends Controller
             array('allow',
                 'actions'=>array('view'),
                 'users'=>array('@'),
-                'expression'=>array('DefaultController', 'allowOnlyOwner'),
+                'expression'=>array($this, 'allowOnlyOwner'),
             ),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
 				'actions'=>array('create','update'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
-				'actions'=>array('admin','delete'),
+				'actions'=>array('delete', 'admin'),
 				'users'=>array('@'),
 			),
 			array('deny',  // deny all users
@@ -49,23 +50,14 @@ class DefaultController extends Controller
 			),
 		);
 	}
-
-    public function canView($id)
-    {
-        $_model = $this->loadModel($id);
-        if($_model->office_id === $user->getOfficeID())
-            return true;
-        
-        return false;
-    }
     
     /**
      * Allow only the owner to do the action
      * @return boolean whether or not the user is the owner
      */
-    public static function allowOnlyOwner()
+    public static function allowOnlyOwner($user, $rule)
     {
-        if(Yii::app()->user->name === 'admin')
+        if($user->name === 'admin')
         {
             return true;
         }
